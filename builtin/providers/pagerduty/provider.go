@@ -3,8 +3,8 @@ package pagerduty
 import (
 	"log"
 
-	"github.com/hashicorp/terraform/helper/schema"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/eugenetaranov/terraform/helper/schema"
+	"github.com/eugenetaranov/terraform/terraform"
 )
 
 // Provider represents a resource provider in Terraform

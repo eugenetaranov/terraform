@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/hashicorp/terraform/helper/acctest"
-	"github.com/hashicorp/terraform/helper/resource"
+	"github.com/eugenetaranov/terraform/helper/acctest"
+	"github.com/eugenetaranov/terraform/helper/resource"
 )
 
 func TestAccOPCVNIC_Basic(t *testing.T) {

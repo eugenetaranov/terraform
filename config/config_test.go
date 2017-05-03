@@ -11,8 +11,8 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/eugenetaranov/terraform/helper/logging"
 	"github.com/hashicorp/hil/ast"
-	"github.com/hashicorp/terraform/helper/logging"
 )
 
 // This is the directory where our test fixtures are.

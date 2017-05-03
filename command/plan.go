@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/config/module"
+	"github.com/eugenetaranov/terraform/backend"
+	"github.com/eugenetaranov/terraform/config/module"
 )
 
 // PlanCommand is a Command implementation that compares a Terraform

@@ -9,9 +9,9 @@ import (
 	"strings"
 
 	"github.com/Azure/azure-sdk-for-go/arm/compute"
-	"github.com/hashicorp/terraform/helper/hashcode"
-	"github.com/hashicorp/terraform/helper/schema"
-	"github.com/hashicorp/terraform/helper/validation"
+	"github.com/eugenetaranov/terraform/helper/hashcode"
+	"github.com/eugenetaranov/terraform/helper/schema"
+	"github.com/eugenetaranov/terraform/helper/validation"
 	riviera "github.com/jen20/riviera/azure"
 )
 

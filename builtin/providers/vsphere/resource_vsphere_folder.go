@@ -6,7 +6,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/eugenetaranov/terraform/helper/schema"
 	"github.com/vmware/govmomi"
 	"github.com/vmware/govmomi/find"
 	"github.com/vmware/govmomi/object"

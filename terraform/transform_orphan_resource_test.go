@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/terraform/dag"
+	"github.com/eugenetaranov/terraform/dag"
 )
 
 func TestOrphanResourceTransformer(t *testing.T) {

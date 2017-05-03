@@ -10,11 +10,11 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/eugenetaranov/terraform/config"
+	"github.com/eugenetaranov/terraform/helper/hashcode"
+	"github.com/eugenetaranov/terraform/terraform"
 	"github.com/hashicorp/hil"
 	"github.com/hashicorp/hil/ast"
-	"github.com/hashicorp/terraform/config"
-	"github.com/hashicorp/terraform/helper/hashcode"
-	"github.com/hashicorp/terraform/terraform"
 )
 
 func TestEnvDefaultFunc(t *testing.T) {
@@ -2023,7 +2023,7 @@ func TestSchemaMap_Diff(t *testing.T) {
 		},
 
 		{
-			Name: "https://github.com/hashicorp/terraform/issues/824",
+			Name: "https://github.com/eugenetaranov/terraform/issues/824",
 			Schema: map[string]*Schema{
 				"block_device": &Schema{
 					Type:     TypeSet,

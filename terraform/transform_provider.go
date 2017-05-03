@@ -5,8 +5,8 @@ import (
 	"log"
 	"strings"
 
+	"github.com/eugenetaranov/terraform/dag"
 	"github.com/hashicorp/go-multierror"
-	"github.com/hashicorp/terraform/dag"
 )
 
 // GraphNodeProvider is an interface that nodes that can be a provider

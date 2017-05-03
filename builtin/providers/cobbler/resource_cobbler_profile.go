@@ -5,7 +5,7 @@ import (
 	"log"
 	"strings"
 
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/eugenetaranov/terraform/helper/schema"
 	cobbler "github.com/jtopjian/cobblerclient"
 )
 

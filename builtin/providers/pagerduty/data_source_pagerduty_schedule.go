@@ -5,7 +5,7 @@ import (
 	"log"
 
 	pagerduty "github.com/PagerDuty/go-pagerduty"
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/eugenetaranov/terraform/helper/schema"
 )
 
 func dataSourcePagerDutySchedule() *schema.Resource {

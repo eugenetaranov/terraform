@@ -5,8 +5,8 @@ import (
 	"time"
 
 	"github.com/aws/aws-sdk-go/service/kms"
+	"github.com/eugenetaranov/terraform/helper/schema"
 	"github.com/hashicorp/errwrap"
-	"github.com/hashicorp/terraform/helper/schema"
 )
 
 func dataSourceAwsKmsAlias() *schema.Resource {

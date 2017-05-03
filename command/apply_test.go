@@ -16,8 +16,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/terraform/state"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/eugenetaranov/terraform/state"
+	"github.com/eugenetaranov/terraform/terraform"
 	"github.com/mitchellh/cli"
 )
 

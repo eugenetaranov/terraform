@@ -6,10 +6,10 @@ import (
 	"path/filepath"
 	"strings"
 
+	"github.com/eugenetaranov/terraform/config"
+	"github.com/eugenetaranov/terraform/config/module"
+	"github.com/eugenetaranov/terraform/helper/variables"
 	"github.com/hashicorp/go-getter"
-	"github.com/hashicorp/terraform/config"
-	"github.com/hashicorp/terraform/config/module"
-	"github.com/hashicorp/terraform/helper/variables"
 )
 
 // InitCommand is a Command implementation that takes a Terraform

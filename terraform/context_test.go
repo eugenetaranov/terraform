@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/eugenetaranov/terraform/flatmap"
 	"github.com/hashicorp/go-version"
-	"github.com/hashicorp/terraform/flatmap"
 )
 
 func TestNewContextRequiredVersion(t *testing.T) {

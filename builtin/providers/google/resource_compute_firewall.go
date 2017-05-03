@@ -7,8 +7,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/hashicorp/terraform/helper/hashcode"
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/eugenetaranov/terraform/helper/hashcode"
+	"github.com/eugenetaranov/terraform/helper/schema"
 	"google.golang.org/api/compute/v1"
 	"google.golang.org/api/googleapi"
 )

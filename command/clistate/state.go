@@ -10,9 +10,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/eugenetaranov/terraform/helper/slowmessage"
+	"github.com/eugenetaranov/terraform/state"
 	"github.com/hashicorp/errwrap"
-	"github.com/hashicorp/terraform/helper/slowmessage"
-	"github.com/hashicorp/terraform/state"
 	"github.com/mitchellh/cli"
 	"github.com/mitchellh/colorstring"
 )

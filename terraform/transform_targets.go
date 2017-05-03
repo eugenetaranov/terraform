@@ -3,7 +3,7 @@ package terraform
 import (
 	"log"
 
-	"github.com/hashicorp/terraform/dag"
+	"github.com/eugenetaranov/terraform/dag"
 )
 
 // GraphNodeTargetable is an interface for graph nodes to implement when they

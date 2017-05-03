@@ -12,8 +12,8 @@ import (
 	"path"
 	"path/filepath"
 
-	"github.com/hashicorp/terraform/helper/pathorcontents"
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/eugenetaranov/terraform/helper/pathorcontents"
+	"github.com/eugenetaranov/terraform/helper/schema"
 )
 
 func resourceDir() *schema.Resource {

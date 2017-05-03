@@ -8,9 +8,9 @@ import (
 	"time"
 
 	compose "github.com/docker/libcompose/config"
-	"github.com/hashicorp/terraform/helper/resource"
-	"github.com/hashicorp/terraform/helper/schema"
-	"github.com/hashicorp/terraform/helper/validation"
+	"github.com/eugenetaranov/terraform/helper/resource"
+	"github.com/eugenetaranov/terraform/helper/schema"
+	"github.com/eugenetaranov/terraform/helper/validation"
 	rancherClient "github.com/rancher/go-rancher/client"
 )
 

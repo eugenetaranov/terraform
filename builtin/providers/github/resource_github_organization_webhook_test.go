@@ -8,9 +8,9 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/eugenetaranov/terraform/helper/resource"
+	"github.com/eugenetaranov/terraform/terraform"
 	"github.com/google/go-github/github"
-	"github.com/hashicorp/terraform/helper/resource"
-	"github.com/hashicorp/terraform/terraform"
 )
 
 func TestAccGithubOrganizationWebhook_basic(t *testing.T) {

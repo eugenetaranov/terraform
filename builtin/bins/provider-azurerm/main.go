@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/hashicorp/terraform/builtin/providers/azurerm"
-	"github.com/hashicorp/terraform/plugin"
+	"github.com/eugenetaranov/terraform/builtin/providers/azurerm"
+	"github.com/eugenetaranov/terraform/plugin"
 )
 
 func main() {

@@ -6,9 +6,9 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/eugenetaranov/terraform/helper/resource"
+	"github.com/eugenetaranov/terraform/terraform"
 	"github.com/google/go-github/github"
-	"github.com/hashicorp/terraform/helper/resource"
-	"github.com/hashicorp/terraform/terraform"
 )
 
 func TestAccGithubBranchProtection_basic(t *testing.T) {

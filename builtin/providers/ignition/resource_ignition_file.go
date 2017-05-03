@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	"github.com/coreos/ignition/config/types"
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/eugenetaranov/terraform/helper/schema"
 )
 
 func resourceFile() *schema.Resource {

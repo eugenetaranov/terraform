@@ -6,12 +6,12 @@ import (
 	"os"
 	"strings"
 
+	"github.com/eugenetaranov/terraform/backend"
+	"github.com/eugenetaranov/terraform/command/clistate"
+	"github.com/eugenetaranov/terraform/config/module"
+	"github.com/eugenetaranov/terraform/state"
 	"github.com/hashicorp/errwrap"
 	"github.com/hashicorp/go-multierror"
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/command/clistate"
-	"github.com/hashicorp/terraform/config/module"
-	"github.com/hashicorp/terraform/state"
 )
 
 func (b *Local) opRefresh(

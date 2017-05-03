@@ -3,7 +3,7 @@ package influxdb
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/eugenetaranov/terraform/helper/schema"
 	"github.com/influxdata/influxdb/client"
 )
 

@@ -6,7 +6,7 @@ import (
 
 	"github.com/dustinkirkland/golang-petname"
 
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/eugenetaranov/terraform/helper/schema"
 )
 
 func resourcePet() *schema.Resource {

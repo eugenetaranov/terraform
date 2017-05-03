@@ -9,9 +9,9 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/ec2"
-	"github.com/hashicorp/terraform/helper/acctest"
-	"github.com/hashicorp/terraform/helper/resource"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/eugenetaranov/terraform/helper/acctest"
+	"github.com/eugenetaranov/terraform/helper/resource"
+	"github.com/eugenetaranov/terraform/terraform"
 )
 
 func TestAccAWSSpotFleetRequest_changePriceForcesNewRequest(t *testing.T) {
@@ -265,7 +265,7 @@ func TestAccAWSSpotFleetRequest_withWeightedCapacity(t *testing.T) {
 		// associated IAM role before anything is actually provisioned and running,
 		// thus leaking when those newly started instances are attempted to be
 		// destroyed
-		// See https://github.com/hashicorp/terraform/pull/8938
+		// See https://github.com/eugenetaranov/terraform/pull/8938
 		return func(s *terraform.State) error {
 			log.Print("[DEBUG] Test: Sleep to allow EC2 to actually begin fulfilling TestAccAWSSpotFleetRequest_withWeightedCapacity request")
 			time.Sleep(1 * time.Minute)

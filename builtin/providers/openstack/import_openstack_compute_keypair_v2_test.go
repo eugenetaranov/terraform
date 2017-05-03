@@ -3,7 +3,7 @@ package openstack
 import (
 	"testing"
 
-	"github.com/hashicorp/terraform/helper/resource"
+	"github.com/eugenetaranov/terraform/helper/resource"
 )
 
 func TestAccComputeV2Keypair_importBasic(t *testing.T) {

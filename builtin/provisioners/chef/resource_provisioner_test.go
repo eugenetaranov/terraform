@@ -5,9 +5,9 @@ import (
 	"path"
 	"testing"
 
-	"github.com/hashicorp/terraform/communicator"
-	"github.com/hashicorp/terraform/config"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/eugenetaranov/terraform/communicator"
+	"github.com/eugenetaranov/terraform/config"
+	"github.com/eugenetaranov/terraform/terraform"
 )
 
 func TestResourceProvisioner_impl(t *testing.T) {

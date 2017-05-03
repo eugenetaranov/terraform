@@ -1,7 +1,7 @@
 package packet
 
 import (
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/eugenetaranov/terraform/helper/schema"
 	"github.com/packethost/packngo"
 )
 

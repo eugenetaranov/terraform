@@ -10,7 +10,7 @@ import (
 
 	"github.com/aws/aws-sdk-go/service/apigateway"
 	"github.com/aws/aws-sdk-go/service/s3"
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/eugenetaranov/terraform/helper/schema"
 )
 
 func validateRdsIdentifier(v interface{}, k string) (ws []string, errors []error) {

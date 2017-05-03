@@ -6,8 +6,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/hashicorp/terraform/helper/schema"
-	"github.com/hashicorp/terraform/helper/validation"
+	"github.com/eugenetaranov/terraform/helper/schema"
+	"github.com/eugenetaranov/terraform/helper/validation"
 	"google.golang.org/api/bigquery/v2"
 	"google.golang.org/api/googleapi"
 )

@@ -10,10 +10,10 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/command/clistate"
-	"github.com/hashicorp/terraform/state"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/eugenetaranov/terraform/backend"
+	"github.com/eugenetaranov/terraform/command/clistate"
+	"github.com/eugenetaranov/terraform/state"
+	"github.com/eugenetaranov/terraform/terraform"
 )
 
 // backendMigrateState handles migrating (copying) state from one backend

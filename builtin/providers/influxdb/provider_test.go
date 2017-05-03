@@ -3,8 +3,8 @@ package influxdb
 import (
 	"testing"
 
-	"github.com/hashicorp/terraform/helper/schema"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/eugenetaranov/terraform/helper/schema"
+	"github.com/eugenetaranov/terraform/terraform"
 )
 
 // To run these acceptance tests, you will need an InfluxDB server.

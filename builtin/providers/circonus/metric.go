@@ -7,10 +7,10 @@ import (
 	"fmt"
 
 	"github.com/circonus-labs/circonus-gometrics/api"
+	"github.com/eugenetaranov/terraform/helper/hashcode"
+	"github.com/eugenetaranov/terraform/helper/schema"
 	"github.com/hashicorp/errwrap"
 	uuid "github.com/hashicorp/go-uuid"
-	"github.com/hashicorp/terraform/helper/hashcode"
-	"github.com/hashicorp/terraform/helper/schema"
 )
 
 type circonusMetric struct {

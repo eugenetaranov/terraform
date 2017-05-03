@@ -7,7 +7,7 @@ import (
 	"os"
 	"path"
 
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/eugenetaranov/terraform/helper/schema"
 )
 
 func resourceLocalFile() *schema.Resource {

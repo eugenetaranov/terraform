@@ -5,8 +5,8 @@ import (
 
 	"github.com/circonus-labs/circonus-gometrics/api"
 	"github.com/circonus-labs/circonus-gometrics/api/config"
+	"github.com/eugenetaranov/terraform/helper/schema"
 	"github.com/hashicorp/errwrap"
-	"github.com/hashicorp/terraform/helper/schema"
 )
 
 const (

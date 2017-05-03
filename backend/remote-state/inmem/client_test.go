@@ -3,9 +3,9 @@ package inmem
 import (
 	"testing"
 
-	"github.com/hashicorp/terraform/backend"
-	remotestate "github.com/hashicorp/terraform/backend/remote-state"
-	"github.com/hashicorp/terraform/state/remote"
+	"github.com/eugenetaranov/terraform/backend"
+	remotestate "github.com/eugenetaranov/terraform/backend/remote-state"
+	"github.com/eugenetaranov/terraform/state/remote"
 )
 
 func TestRemoteClient_impl(t *testing.T) {

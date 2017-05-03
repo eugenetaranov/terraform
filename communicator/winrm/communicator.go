@@ -10,8 +10,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/hashicorp/terraform/communicator/remote"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/eugenetaranov/terraform/communicator/remote"
+	"github.com/eugenetaranov/terraform/terraform"
 	"github.com/masterzen/winrm/winrm"
 	"github.com/packer-community/winrmcp/winrmcp"
 

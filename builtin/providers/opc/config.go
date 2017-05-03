@@ -6,10 +6,10 @@ import (
 	"net/url"
 	"strings"
 
+	"github.com/eugenetaranov/terraform/helper/logging"
 	"github.com/hashicorp/go-cleanhttp"
 	"github.com/hashicorp/go-oracle-terraform/compute"
 	"github.com/hashicorp/go-oracle-terraform/opc"
-	"github.com/hashicorp/terraform/helper/logging"
 )
 
 type Config struct {

@@ -3,7 +3,7 @@ package terraform
 import (
 	"log"
 
-	"github.com/hashicorp/terraform/dag"
+	"github.com/eugenetaranov/terraform/dag"
 )
 
 // OrphanResourceCountTransformer is a GraphTransformer that adds orphans

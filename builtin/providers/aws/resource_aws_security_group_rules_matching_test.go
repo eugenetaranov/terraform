@@ -4,7 +4,7 @@ import (
 	"log"
 	"testing"
 
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/eugenetaranov/terraform/helper/schema"
 )
 
 // testing rulesForGroupPermissions

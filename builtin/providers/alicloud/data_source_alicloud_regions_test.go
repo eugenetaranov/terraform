@@ -3,7 +3,7 @@ package alicloud
 import (
 	"testing"
 
-	"github.com/hashicorp/terraform/helper/resource"
+	"github.com/eugenetaranov/terraform/helper/resource"
 )
 
 func TestAccAlicloudRegionsDataSource_regions(t *testing.T) {

@@ -3,7 +3,7 @@ package winrm
 import (
 	"testing"
 
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/eugenetaranov/terraform/terraform"
 )
 
 func TestProvisioner_connInfo(t *testing.T) {

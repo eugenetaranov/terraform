@@ -6,8 +6,8 @@ import (
 	"log"
 	"sync"
 
+	"github.com/eugenetaranov/terraform/helper/shadow"
 	"github.com/hashicorp/go-multierror"
-	"github.com/hashicorp/terraform/helper/shadow"
 )
 
 // shadowResourceProvisioner implements ResourceProvisioner for the shadow

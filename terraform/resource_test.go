@@ -5,9 +5,9 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/eugenetaranov/terraform/config"
 	"github.com/hashicorp/hil"
 	"github.com/hashicorp/hil/ast"
-	"github.com/hashicorp/terraform/config"
 	"github.com/mitchellh/reflectwalk"
 )
 

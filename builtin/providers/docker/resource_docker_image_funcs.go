@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/eugenetaranov/terraform/helper/schema"
 	dc "github.com/fsouza/go-dockerclient"
-	"github.com/hashicorp/terraform/helper/schema"
 )
 
 func resourceDockerImageCreate(d *schema.ResourceData, meta interface{}) error {

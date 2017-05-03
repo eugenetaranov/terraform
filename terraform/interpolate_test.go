@@ -8,9 +8,9 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
+	"github.com/eugenetaranov/terraform/config"
 	"github.com/hashicorp/hil"
 	"github.com/hashicorp/hil/ast"
-	"github.com/hashicorp/terraform/config"
 )
 
 func TestInterpolater_simpleVar(t *testing.T) {

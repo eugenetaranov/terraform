@@ -4,8 +4,8 @@ import (
 	"context"
 	"strings"
 
+	"github.com/eugenetaranov/terraform/helper/schema"
 	"github.com/google/go-github/github"
-	"github.com/hashicorp/terraform/helper/schema"
 )
 
 func resourceGithubTeamMembership() *schema.Resource {

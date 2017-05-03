@@ -15,8 +15,8 @@ import (
 	"github.com/aws/aws-sdk-go/service/rds"
 	"github.com/aws/aws-sdk-go/service/redshift"
 	"github.com/aws/aws-sdk-go/service/route53"
-	"github.com/hashicorp/terraform/flatmap"
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/eugenetaranov/terraform/flatmap"
+	"github.com/eugenetaranov/terraform/helper/schema"
 )
 
 // Returns test configuration

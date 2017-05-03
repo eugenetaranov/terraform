@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/hashicorp/terraform/builtin/providers/vcd"
-	"github.com/hashicorp/terraform/plugin"
+	"github.com/eugenetaranov/terraform/builtin/providers/vcd"
+	"github.com/eugenetaranov/terraform/plugin"
 )
 
 func main() {

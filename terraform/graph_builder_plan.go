@@ -3,8 +3,8 @@ package terraform
 import (
 	"sync"
 
-	"github.com/hashicorp/terraform/config/module"
-	"github.com/hashicorp/terraform/dag"
+	"github.com/eugenetaranov/terraform/config/module"
+	"github.com/eugenetaranov/terraform/dag"
 )
 
 // PlanGraphBuilder implements GraphBuilder and is responsible for building

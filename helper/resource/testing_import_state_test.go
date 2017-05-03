@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/eugenetaranov/terraform/terraform"
 )
 
 func TestTest_importState(t *testing.T) {

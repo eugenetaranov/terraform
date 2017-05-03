@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/eugenetaranov/terraform/terraform"
 )
 
 func resourceGoogleProjectMigrateState(v int, s *terraform.InstanceState, meta interface{}) (*terraform.InstanceState, error) {

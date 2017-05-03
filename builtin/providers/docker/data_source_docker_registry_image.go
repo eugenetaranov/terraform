@@ -8,7 +8,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/eugenetaranov/terraform/helper/schema"
 )
 
 func dataSourceDockerRegistryImage() *schema.Resource {

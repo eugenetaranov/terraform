@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/hashicorp/terraform/helper/resource"
+	"github.com/eugenetaranov/terraform/helper/resource"
 )
 
 func TestAccDataDnsARecordSet_Basic(t *testing.T) {

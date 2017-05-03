@@ -6,7 +6,7 @@ import (
 	"runtime/debug"
 	"strings"
 
-	"github.com/hashicorp/terraform/dag"
+	"github.com/eugenetaranov/terraform/dag"
 )
 
 // RootModuleName is the name given to the root module implicitly.

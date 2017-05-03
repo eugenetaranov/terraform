@@ -15,9 +15,9 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/eugenetaranov/terraform/config"
 	"github.com/hashicorp/go-multierror"
 	"github.com/hashicorp/go-version"
-	"github.com/hashicorp/terraform/config"
 	"github.com/mitchellh/copystructure"
 	"github.com/satori/go.uuid"
 )

@@ -3,9 +3,9 @@ package terraform
 import (
 	"log"
 
-	"github.com/hashicorp/terraform/config"
-	"github.com/hashicorp/terraform/config/module"
-	"github.com/hashicorp/terraform/dag"
+	"github.com/eugenetaranov/terraform/config"
+	"github.com/eugenetaranov/terraform/config/module"
+	"github.com/eugenetaranov/terraform/dag"
 )
 
 // ModuleVariableTransformer is a GraphTransformer that adds all the variables

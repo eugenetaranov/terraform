@@ -1,7 +1,7 @@
 package terraform
 
 import (
-	"github.com/hashicorp/terraform/config/module"
+	"github.com/eugenetaranov/terraform/config/module"
 )
 
 // RootVariableTransformer is a GraphTransformer that adds all the root

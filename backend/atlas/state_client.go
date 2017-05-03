@@ -14,11 +14,11 @@ import (
 	"os"
 	"path"
 
+	"github.com/eugenetaranov/terraform/state/remote"
+	"github.com/eugenetaranov/terraform/terraform"
 	"github.com/hashicorp/go-cleanhttp"
 	"github.com/hashicorp/go-retryablehttp"
 	"github.com/hashicorp/go-rootcerts"
-	"github.com/hashicorp/terraform/state/remote"
-	"github.com/hashicorp/terraform/terraform"
 )
 
 const (

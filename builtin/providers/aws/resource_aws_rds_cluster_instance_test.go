@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/terraform/helper/acctest"
-	"github.com/hashicorp/terraform/helper/resource"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/eugenetaranov/terraform/helper/acctest"
+	"github.com/eugenetaranov/terraform/helper/resource"
+	"github.com/eugenetaranov/terraform/terraform"
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/awserr"
@@ -109,7 +109,7 @@ func TestAccAWSRDSClusterInstance_kmsKey(t *testing.T) {
 	})
 }
 
-// https://github.com/hashicorp/terraform/issues/5350
+// https://github.com/eugenetaranov/terraform/issues/5350
 func TestAccAWSRDSClusterInstance_disappears(t *testing.T) {
 	var v rds.DBInstance
 

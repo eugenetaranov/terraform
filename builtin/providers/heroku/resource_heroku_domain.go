@@ -6,7 +6,7 @@ import (
 	"log"
 
 	"github.com/cyberdelia/heroku-go/v3"
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/eugenetaranov/terraform/helper/schema"
 )
 
 func resourceHerokuDomain() *schema.Resource {

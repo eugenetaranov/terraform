@@ -10,9 +10,9 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/eugenetaranov/terraform/helper/logging"
+	"github.com/eugenetaranov/terraform/terraform"
 	"github.com/hashicorp/go-plugin"
-	"github.com/hashicorp/terraform/helper/logging"
-	"github.com/hashicorp/terraform/terraform"
 	"github.com/mattn/go-colorable"
 	"github.com/mattn/go-shellwords"
 	"github.com/mitchellh/cli"

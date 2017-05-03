@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/eugenetaranov/terraform/dag"
 	"github.com/hashicorp/go-multierror"
-	"github.com/hashicorp/terraform/dag"
 )
 
 // validateProviderAlias validates that all provider alias references are

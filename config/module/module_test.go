@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"testing"
 
+	"github.com/eugenetaranov/terraform/config"
 	"github.com/hashicorp/go-getter"
-	"github.com/hashicorp/terraform/config"
 )
 
 const fixtureDir = "./test-fixtures"

@@ -5,9 +5,9 @@ import (
 	"net/http"
 
 	"github.com/Azure/azure-sdk-for-go/arm/compute"
-	"github.com/hashicorp/terraform/helper/schema"
-	"github.com/hashicorp/terraform/helper/structure"
-	"github.com/hashicorp/terraform/helper/validation"
+	"github.com/eugenetaranov/terraform/helper/schema"
+	"github.com/eugenetaranov/terraform/helper/structure"
+	"github.com/eugenetaranov/terraform/helper/validation"
 )
 
 func resourceArmVirtualMachineExtensions() *schema.Resource {

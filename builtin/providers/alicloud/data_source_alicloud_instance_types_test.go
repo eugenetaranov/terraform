@@ -1,7 +1,7 @@
 package alicloud
 
 import (
-	"github.com/hashicorp/terraform/helper/resource"
+	"github.com/eugenetaranov/terraform/helper/resource"
 	"testing"
 )
 

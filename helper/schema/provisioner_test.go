@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/terraform/config"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/eugenetaranov/terraform/config"
+	"github.com/eugenetaranov/terraform/terraform"
 )
 
 func TestProvisioner_impl(t *testing.T) {

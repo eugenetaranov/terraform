@@ -3,8 +3,8 @@ package legacy
 import (
 	"testing"
 
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/state/remote"
+	"github.com/eugenetaranov/terraform/backend"
+	"github.com/eugenetaranov/terraform/state/remote"
 )
 
 func TestInit(t *testing.T) {

@@ -3,7 +3,7 @@ package terraform
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform/config"
+	"github.com/eugenetaranov/terraform/config"
 )
 
 // EvalValidateResourceSelfRef is an EvalNode implementation that validates that

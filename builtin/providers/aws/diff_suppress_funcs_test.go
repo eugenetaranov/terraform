@@ -3,7 +3,7 @@ package aws
 import (
 	"testing"
 
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/eugenetaranov/terraform/helper/schema"
 )
 
 func TestSuppressEquivalentJsonDiffsWhitespaceAndNoWhitespace(t *testing.T) {

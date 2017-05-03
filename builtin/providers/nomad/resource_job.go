@@ -8,10 +8,10 @@ import (
 	"reflect"
 	"strings"
 
+	"github.com/eugenetaranov/terraform/helper/schema"
 	"github.com/hashicorp/nomad/api"
 	"github.com/hashicorp/nomad/jobspec"
 	"github.com/hashicorp/nomad/nomad/structs"
-	"github.com/hashicorp/terraform/helper/schema"
 )
 
 func resourceJob() *schema.Resource {

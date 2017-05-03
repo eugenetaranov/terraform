@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/Ensighten/udnssdk"
-	"github.com/hashicorp/terraform/helper/resource"
+	"github.com/eugenetaranov/terraform/helper/resource"
 )
 
 func TestAccUltradnsProbeHTTP(t *testing.T) {

@@ -8,11 +8,11 @@ import (
 	"path/filepath"
 	"strings"
 
+	"github.com/eugenetaranov/terraform/config"
+	"github.com/eugenetaranov/terraform/helper/pathorcontents"
+	"github.com/eugenetaranov/terraform/helper/schema"
 	"github.com/hashicorp/hil"
 	"github.com/hashicorp/hil/ast"
-	"github.com/hashicorp/terraform/config"
-	"github.com/hashicorp/terraform/helper/pathorcontents"
-	"github.com/hashicorp/terraform/helper/schema"
 )
 
 func dataSourceFile() *schema.Resource {

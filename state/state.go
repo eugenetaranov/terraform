@@ -13,8 +13,8 @@ import (
 	"text/template"
 	"time"
 
+	"github.com/eugenetaranov/terraform/terraform"
 	uuid "github.com/hashicorp/go-uuid"
-	"github.com/hashicorp/terraform/terraform"
 )
 
 var rngSource *rand.Rand

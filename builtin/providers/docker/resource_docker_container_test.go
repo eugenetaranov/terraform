@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/eugenetaranov/terraform/helper/resource"
+	"github.com/eugenetaranov/terraform/terraform"
 	dc "github.com/fsouza/go-dockerclient"
-	"github.com/hashicorp/terraform/helper/resource"
-	"github.com/hashicorp/terraform/terraform"
 )
 
 func TestAccDockerContainer_basic(t *testing.T) {

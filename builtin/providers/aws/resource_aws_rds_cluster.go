@@ -10,8 +10,8 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/awserr"
 	"github.com/aws/aws-sdk-go/service/rds"
-	"github.com/hashicorp/terraform/helper/resource"
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/eugenetaranov/terraform/helper/resource"
+	"github.com/eugenetaranov/terraform/helper/schema"
 )
 
 func resourceAwsRDSCluster() *schema.Resource {
@@ -501,7 +501,7 @@ func resourceAwsRDSClusterRead(d *schema.ResourceData, meta interface{}) error {
 	// Only set the DatabaseName if it is not nil. There is a known API bug where
 	// RDS accepts a DatabaseName but does not return it, causing a perpetual
 	// diff.
-	//	See https://github.com/hashicorp/terraform/issues/4671 for backstory
+	//	See https://github.com/eugenetaranov/terraform/issues/4671 for backstory
 	if dbc.DatabaseName != nil {
 		d.Set("database_name", dbc.DatabaseName)
 	}

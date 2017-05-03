@@ -5,7 +5,7 @@ import (
 	"log"
 
 	"github.com/Ensighten/udnssdk"
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/eugenetaranov/terraform/helper/schema"
 )
 
 func resourceUltradnsProbeHTTP() *schema.Resource {

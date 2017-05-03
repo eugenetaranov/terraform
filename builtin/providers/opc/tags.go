@@ -1,6 +1,6 @@
 package opc
 
-import "github.com/hashicorp/terraform/helper/schema"
+import "github.com/eugenetaranov/terraform/helper/schema"
 
 func tagsOptionalSchema() *schema.Schema {
 	return &schema.Schema{

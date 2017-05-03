@@ -6,8 +6,8 @@ import (
 	"sync"
 	"testing"
 
-	r "github.com/hashicorp/terraform/helper/resource"
-	"github.com/hashicorp/terraform/terraform"
+	r "github.com/eugenetaranov/terraform/helper/resource"
+	"github.com/eugenetaranov/terraform/terraform"
 )
 
 var testProviders = map[string]terraform.ResourceProvider{

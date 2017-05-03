@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	r "github.com/hashicorp/terraform/helper/resource"
-	"github.com/hashicorp/terraform/terraform"
+	r "github.com/eugenetaranov/terraform/helper/resource"
+	"github.com/eugenetaranov/terraform/terraform"
 )
 
 func TestSelfSignedCert(t *testing.T) {

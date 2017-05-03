@@ -8,8 +8,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/hashicorp/terraform/communicator/shared"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/eugenetaranov/terraform/communicator/shared"
+	"github.com/eugenetaranov/terraform/terraform"
 	"github.com/mitchellh/mapstructure"
 	"github.com/xanzy/ssh-agent"
 	"golang.org/x/crypto/ssh"

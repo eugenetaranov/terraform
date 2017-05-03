@@ -3,7 +3,7 @@ package schema
 import (
 	"context"
 
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/eugenetaranov/terraform/terraform"
 )
 
 // Backend represents a partial backend.Backend implementation and simplifies

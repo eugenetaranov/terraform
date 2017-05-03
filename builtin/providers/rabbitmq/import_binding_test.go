@@ -5,7 +5,7 @@ import (
 
 	"github.com/michaelklishin/rabbit-hole"
 
-	"github.com/hashicorp/terraform/helper/resource"
+	"github.com/eugenetaranov/terraform/helper/resource"
 )
 
 func TestAccBinding_importBasic(t *testing.T) {

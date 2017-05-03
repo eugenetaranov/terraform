@@ -7,7 +7,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/hashicorp/terraform/config"
+	"github.com/eugenetaranov/terraform/config"
 )
 
 // BuiltinEvalContext is an EvalContext implementation that is used by

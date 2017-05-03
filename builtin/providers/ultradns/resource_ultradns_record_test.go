@@ -5,8 +5,8 @@ import (
 	"testing"
 
 	"github.com/Ensighten/udnssdk"
-	"github.com/hashicorp/terraform/helper/resource"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/eugenetaranov/terraform/helper/resource"
+	"github.com/eugenetaranov/terraform/terraform"
 )
 
 func TestAccUltradnsRecord(t *testing.T) {

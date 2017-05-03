@@ -3,7 +3,7 @@ package remotestate
 import (
 	"testing"
 
-	"github.com/hashicorp/terraform/backend"
+	"github.com/eugenetaranov/terraform/backend"
 )
 
 func TestBackend_impl(t *testing.T) {

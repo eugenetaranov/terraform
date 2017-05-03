@@ -5,14 +5,14 @@ package init
 import (
 	"sync"
 
-	"github.com/hashicorp/terraform/backend"
+	"github.com/eugenetaranov/terraform/backend"
 
-	backendatlas "github.com/hashicorp/terraform/backend/atlas"
-	backendlegacy "github.com/hashicorp/terraform/backend/legacy"
-	backendlocal "github.com/hashicorp/terraform/backend/local"
-	backendconsul "github.com/hashicorp/terraform/backend/remote-state/consul"
-	backendinmem "github.com/hashicorp/terraform/backend/remote-state/inmem"
-	backendS3 "github.com/hashicorp/terraform/backend/remote-state/s3"
+	backendatlas "github.com/eugenetaranov/terraform/backend/atlas"
+	backendlegacy "github.com/eugenetaranov/terraform/backend/legacy"
+	backendlocal "github.com/eugenetaranov/terraform/backend/local"
+	backendconsul "github.com/eugenetaranov/terraform/backend/remote-state/consul"
+	backendinmem "github.com/eugenetaranov/terraform/backend/remote-state/inmem"
+	backendS3 "github.com/eugenetaranov/terraform/backend/remote-state/s3"
 )
 
 // backends is the list of available backends. This is a global variable

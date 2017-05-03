@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/eugenetaranov/terraform/helper/schema"
 )
 
 func resourceSelfSignedCert() *schema.Resource {

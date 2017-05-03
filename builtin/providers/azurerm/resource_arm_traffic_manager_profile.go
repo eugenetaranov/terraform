@@ -8,9 +8,9 @@ import (
 	"strings"
 
 	"github.com/Azure/azure-sdk-for-go/arm/trafficmanager"
-	"github.com/hashicorp/terraform/helper/hashcode"
-	"github.com/hashicorp/terraform/helper/schema"
-	"github.com/hashicorp/terraform/helper/validation"
+	"github.com/eugenetaranov/terraform/helper/hashcode"
+	"github.com/eugenetaranov/terraform/helper/schema"
+	"github.com/eugenetaranov/terraform/helper/validation"
 )
 
 func resourceArmTrafficManagerProfile() *schema.Resource {

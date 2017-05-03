@@ -3,8 +3,8 @@ package plugin
 import (
 	"testing"
 
+	"github.com/eugenetaranov/terraform/terraform"
 	"github.com/hashicorp/go-plugin"
-	"github.com/hashicorp/terraform/terraform"
 )
 
 func TestUIOutput_impl(t *testing.T) {

@@ -3,8 +3,8 @@ package azurerm
 import (
 	"fmt"
 	"github.com/Azure/azure-sdk-for-go/arm/disk"
-	"github.com/hashicorp/terraform/helper/schema"
-	"github.com/hashicorp/terraform/helper/validation"
+	"github.com/eugenetaranov/terraform/helper/schema"
+	"github.com/eugenetaranov/terraform/helper/validation"
 	"log"
 	"net/http"
 	"strings"

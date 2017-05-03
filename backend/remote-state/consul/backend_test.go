@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/eugenetaranov/terraform/backend"
 	"github.com/hashicorp/consul/testutil"
-	"github.com/hashicorp/terraform/backend"
 )
 
 func TestBackend_impl(t *testing.T) {

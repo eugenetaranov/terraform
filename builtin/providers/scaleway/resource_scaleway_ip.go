@@ -3,7 +3,7 @@ package scaleway
 import (
 	"log"
 
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/eugenetaranov/terraform/helper/schema"
 	"github.com/scaleway/scaleway-cli/pkg/api"
 )
 

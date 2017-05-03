@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/circonus-labs/circonus-gometrics/api/config"
-	"github.com/hashicorp/terraform/helper/resource"
+	"github.com/eugenetaranov/terraform/helper/resource"
 )
 
 func TestAccCirconusCheckJSON_basic(t *testing.T) {

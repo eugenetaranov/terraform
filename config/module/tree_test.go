@@ -7,9 +7,9 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/eugenetaranov/terraform/config"
+	"github.com/eugenetaranov/terraform/helper/copy"
 	"github.com/hashicorp/go-getter"
-	"github.com/hashicorp/terraform/config"
-	"github.com/hashicorp/terraform/helper/copy"
 )
 
 func TestTreeChild(t *testing.T) {

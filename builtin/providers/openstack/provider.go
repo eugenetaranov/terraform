@@ -1,9 +1,9 @@
 package openstack
 
 import (
-	"github.com/hashicorp/terraform/helper/mutexkv"
-	"github.com/hashicorp/terraform/helper/schema"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/eugenetaranov/terraform/helper/mutexkv"
+	"github.com/eugenetaranov/terraform/helper/schema"
+	"github.com/eugenetaranov/terraform/terraform"
 )
 
 // This is a global MutexKV for use within this plugin.

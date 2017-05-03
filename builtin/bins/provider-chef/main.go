@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/hashicorp/terraform/builtin/providers/chef"
-	"github.com/hashicorp/terraform/plugin"
+	"github.com/eugenetaranov/terraform/builtin/providers/chef"
+	"github.com/eugenetaranov/terraform/plugin"
 )
 
 func main() {

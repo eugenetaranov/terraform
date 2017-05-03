@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/eugenetaranov/terraform/terraform"
 	"github.com/hashicorp/go-plugin"
-	"github.com/hashicorp/terraform/terraform"
 )
 
 func TestResourceProvider_impl(t *testing.T) {

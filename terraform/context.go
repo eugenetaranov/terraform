@@ -8,11 +8,11 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/eugenetaranov/terraform/config"
+	"github.com/eugenetaranov/terraform/config/module"
+	"github.com/eugenetaranov/terraform/helper/experiment"
 	"github.com/hashicorp/go-multierror"
 	"github.com/hashicorp/hcl"
-	"github.com/hashicorp/terraform/config"
-	"github.com/hashicorp/terraform/config/module"
-	"github.com/hashicorp/terraform/helper/experiment"
 )
 
 // InputMode defines what sort of input will be asked for when Input

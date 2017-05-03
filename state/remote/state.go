@@ -3,8 +3,8 @@ package remote
 import (
 	"bytes"
 
-	"github.com/hashicorp/terraform/state"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/eugenetaranov/terraform/state"
+	"github.com/eugenetaranov/terraform/terraform"
 )
 
 // State implements the State interfaces in the state package to handle

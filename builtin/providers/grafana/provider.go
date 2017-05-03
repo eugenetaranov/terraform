@@ -1,8 +1,8 @@
 package grafana
 
 import (
-	"github.com/hashicorp/terraform/helper/schema"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/eugenetaranov/terraform/helper/schema"
+	"github.com/eugenetaranov/terraform/terraform"
 
 	gapi "github.com/apparentlymart/go-grafana-api"
 )

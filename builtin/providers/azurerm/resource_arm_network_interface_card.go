@@ -8,8 +8,8 @@ import (
 	"strings"
 
 	"github.com/Azure/azure-sdk-for-go/arm/network"
-	"github.com/hashicorp/terraform/helper/hashcode"
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/eugenetaranov/terraform/helper/hashcode"
+	"github.com/eugenetaranov/terraform/helper/schema"
 )
 
 func resourceArmNetworkInterface() *schema.Resource {

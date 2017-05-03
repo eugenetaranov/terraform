@@ -8,7 +8,7 @@ import (
 	"regexp"
 
 	"github.com/Azure/azure-sdk-for-go/storage"
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/eugenetaranov/terraform/helper/schema"
 )
 
 func resourceArmStorageContainer() *schema.Resource {

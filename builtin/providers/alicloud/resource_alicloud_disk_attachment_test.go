@@ -5,8 +5,8 @@ import (
 	"testing"
 
 	"github.com/denverdino/aliyungo/ecs"
-	"github.com/hashicorp/terraform/helper/resource"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/eugenetaranov/terraform/helper/resource"
+	"github.com/eugenetaranov/terraform/terraform"
 	"time"
 )
 

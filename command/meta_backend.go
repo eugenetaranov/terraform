@@ -13,18 +13,18 @@ import (
 	"path/filepath"
 	"strings"
 
+	"github.com/eugenetaranov/terraform/backend"
+	"github.com/eugenetaranov/terraform/command/clistate"
+	"github.com/eugenetaranov/terraform/config"
+	"github.com/eugenetaranov/terraform/state"
+	"github.com/eugenetaranov/terraform/terraform"
 	"github.com/hashicorp/errwrap"
 	"github.com/hashicorp/go-multierror"
 	"github.com/hashicorp/hcl"
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/command/clistate"
-	"github.com/hashicorp/terraform/config"
-	"github.com/hashicorp/terraform/state"
-	"github.com/hashicorp/terraform/terraform"
 	"github.com/mitchellh/mapstructure"
 
-	backendinit "github.com/hashicorp/terraform/backend/init"
-	backendlocal "github.com/hashicorp/terraform/backend/local"
+	backendinit "github.com/eugenetaranov/terraform/backend/init"
+	backendlocal "github.com/eugenetaranov/terraform/backend/local"
 )
 
 // BackendOpts are the options used to initialize a backend.Backend.

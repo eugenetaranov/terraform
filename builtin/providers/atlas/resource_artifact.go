@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"regexp"
 
+	"github.com/eugenetaranov/terraform/helper/schema"
 	"github.com/hashicorp/atlas-go/v1"
-	"github.com/hashicorp/terraform/helper/schema"
 )
 
 var (

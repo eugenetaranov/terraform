@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/hashicorp/terraform/command/clistate"
-	"github.com/hashicorp/terraform/state"
+	"github.com/eugenetaranov/terraform/command/clistate"
+	"github.com/eugenetaranov/terraform/state"
 	"github.com/mitchellh/cli"
 )
 

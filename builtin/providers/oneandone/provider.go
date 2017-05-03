@@ -2,8 +2,8 @@ package oneandone
 
 import (
 	"github.com/1and1/oneandone-cloudserver-sdk-go"
-	"github.com/hashicorp/terraform/helper/schema"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/eugenetaranov/terraform/helper/schema"
+	"github.com/eugenetaranov/terraform/terraform"
 )
 
 func Provider() terraform.ResourceProvider {

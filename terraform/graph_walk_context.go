@@ -6,8 +6,8 @@ import (
 	"log"
 	"sync"
 
+	"github.com/eugenetaranov/terraform/dag"
 	"github.com/hashicorp/errwrap"
-	"github.com/hashicorp/terraform/dag"
 )
 
 // ContextGraphWalker is the GraphWalker implementation used with the

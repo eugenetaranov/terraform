@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/eugenetaranov/terraform/config"
+	"github.com/eugenetaranov/terraform/dag"
 	"github.com/hashicorp/go-multierror"
-	"github.com/hashicorp/terraform/config"
-	"github.com/hashicorp/terraform/dag"
 )
 
 // GraphSemanticChecker is the interface that semantic checks across

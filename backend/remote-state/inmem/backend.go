@@ -3,11 +3,11 @@ package inmem
 import (
 	"context"
 
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/backend/remote-state"
-	"github.com/hashicorp/terraform/helper/schema"
-	"github.com/hashicorp/terraform/state"
-	"github.com/hashicorp/terraform/state/remote"
+	"github.com/eugenetaranov/terraform/backend"
+	"github.com/eugenetaranov/terraform/backend/remote-state"
+	"github.com/eugenetaranov/terraform/helper/schema"
+	"github.com/eugenetaranov/terraform/state"
+	"github.com/eugenetaranov/terraform/state/remote"
 )
 
 // New creates a new backend for Inmem remote state.

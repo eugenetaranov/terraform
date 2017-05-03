@@ -5,7 +5,7 @@ import (
 	"log"
 	"sync"
 
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/eugenetaranov/terraform/helper/schema"
 	"github.com/nesv/go-dynect/dynect"
 )
 

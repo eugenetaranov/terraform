@@ -1,7 +1,7 @@
 package terraform
 
 import (
-	"github.com/hashicorp/terraform/config/module"
+	"github.com/eugenetaranov/terraform/config/module"
 )
 
 // OutputTransformer is a GraphTransformer that adds all the outputs

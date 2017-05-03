@@ -5,7 +5,7 @@ import (
 	"net/http"
 
 	"github.com/Azure/azure-sdk-for-go/arm/network"
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/eugenetaranov/terraform/helper/schema"
 )
 
 func resourceArmNetworkSecurityRule() *schema.Resource {

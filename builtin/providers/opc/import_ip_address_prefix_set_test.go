@@ -3,8 +3,8 @@ package opc
 import (
 	"testing"
 
-	"github.com/hashicorp/terraform/helper/acctest"
-	"github.com/hashicorp/terraform/helper/resource"
+	"github.com/eugenetaranov/terraform/helper/acctest"
+	"github.com/eugenetaranov/terraform/helper/resource"
 )
 
 func TestAccOPCIPAddressPrefixSet_importBasic(t *testing.T) {

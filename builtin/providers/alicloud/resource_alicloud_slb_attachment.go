@@ -2,7 +2,7 @@ package alicloud
 
 import (
 	"fmt"
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/eugenetaranov/terraform/helper/schema"
 	"strings"
 )
 

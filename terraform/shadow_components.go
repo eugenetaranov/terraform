@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"sync"
 
+	"github.com/eugenetaranov/terraform/helper/shadow"
 	"github.com/hashicorp/go-multierror"
-	"github.com/hashicorp/terraform/helper/shadow"
 )
 
 // newShadowComponentFactory creates a shadowed contextComponentFactory

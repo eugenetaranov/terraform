@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/hashicorp/terraform/builtin/providers/spotinst"
-	"github.com/hashicorp/terraform/plugin"
+	"github.com/eugenetaranov/terraform/builtin/providers/spotinst"
+	"github.com/eugenetaranov/terraform/plugin"
 )
 
 func main() {

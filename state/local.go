@@ -10,8 +10,8 @@ import (
 	"path/filepath"
 	"time"
 
+	"github.com/eugenetaranov/terraform/terraform"
 	multierror "github.com/hashicorp/go-multierror"
-	"github.com/hashicorp/terraform/terraform"
 )
 
 // LocalState manages a state storage that is local to the filesystem.

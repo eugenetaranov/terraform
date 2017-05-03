@@ -17,8 +17,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/hashicorp/terraform/communicator/remote"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/eugenetaranov/terraform/communicator/remote"
+	"github.com/eugenetaranov/terraform/terraform"
 	"golang.org/x/crypto/ssh"
 	"golang.org/x/crypto/ssh/agent"
 )

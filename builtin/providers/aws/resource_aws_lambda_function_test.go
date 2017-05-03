@@ -12,9 +12,9 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/lambda"
-	"github.com/hashicorp/terraform/helper/acctest"
-	"github.com/hashicorp/terraform/helper/resource"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/eugenetaranov/terraform/helper/acctest"
+	"github.com/eugenetaranov/terraform/helper/resource"
+	"github.com/eugenetaranov/terraform/terraform"
 )
 
 func TestAccAWSLambdaFunction_basic(t *testing.T) {
@@ -421,7 +421,7 @@ func TestAccAWSLambdaFunction_s3Update_basic(t *testing.T) {
 				Config: genAWSLambdaFunctionConfig_s3(bucketName, key, path, rInt, rName),
 			},
 			// Extra step because of missing ComputedWhen
-			// See https://github.com/hashicorp/terraform/pull/4846 & https://github.com/hashicorp/terraform/pull/5330
+			// See https://github.com/eugenetaranov/terraform/pull/4846 & https://github.com/eugenetaranov/terraform/pull/5330
 			{
 				Config: genAWSLambdaFunctionConfig_s3(bucketName, key, path, rInt, rName),
 				Check: resource.ComposeTestCheckFunc(

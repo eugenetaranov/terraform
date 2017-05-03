@@ -3,8 +3,8 @@ package atlas
 import (
 	"fmt"
 
+	"github.com/eugenetaranov/terraform/helper/schema"
 	"github.com/hashicorp/atlas-go/v1"
-	"github.com/hashicorp/terraform/helper/schema"
 )
 
 func dataSourceAtlasArtifact() *schema.Resource {

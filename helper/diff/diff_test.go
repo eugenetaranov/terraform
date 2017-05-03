@@ -7,9 +7,9 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/eugenetaranov/terraform/config"
+	"github.com/eugenetaranov/terraform/terraform"
 	"github.com/hashicorp/hil/ast"
-	"github.com/hashicorp/terraform/config"
-	"github.com/hashicorp/terraform/terraform"
 )
 
 func testConfig(

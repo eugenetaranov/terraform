@@ -4,8 +4,8 @@ import (
 	"context"
 	"log"
 
+	"github.com/eugenetaranov/terraform/helper/schema"
 	"github.com/google/go-github/github"
-	"github.com/hashicorp/terraform/helper/schema"
 )
 
 func resourceGithubRepository() *schema.Resource {

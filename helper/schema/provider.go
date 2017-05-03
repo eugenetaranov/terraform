@@ -7,8 +7,8 @@ import (
 	"sort"
 	"sync"
 
+	"github.com/eugenetaranov/terraform/terraform"
 	"github.com/hashicorp/go-multierror"
-	"github.com/hashicorp/terraform/terraform"
 )
 
 // Provider represents a resource provider in Terraform, and properly

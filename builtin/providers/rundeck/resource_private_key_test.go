@@ -7,8 +7,8 @@ import (
 
 	"github.com/apparentlymart/go-rundeck-api/rundeck"
 
-	"github.com/hashicorp/terraform/helper/resource"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/eugenetaranov/terraform/helper/resource"
+	"github.com/eugenetaranov/terraform/terraform"
 )
 
 func TestAccPrivateKey_basic(t *testing.T) {

@@ -6,7 +6,7 @@ import (
 	"strings"
 
 	"github.com/Ensighten/udnssdk"
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/eugenetaranov/terraform/helper/schema"
 )
 
 func resourceUltradnsTcpool() *schema.Resource {

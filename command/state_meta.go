@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	backendlocal "github.com/hashicorp/terraform/backend/local"
-	"github.com/hashicorp/terraform/state"
-	"github.com/hashicorp/terraform/terraform"
+	backendlocal "github.com/eugenetaranov/terraform/backend/local"
+	"github.com/eugenetaranov/terraform/state"
+	"github.com/eugenetaranov/terraform/terraform"
 )
 
 // StateMeta is the meta struct that should be embedded in state subcommands.

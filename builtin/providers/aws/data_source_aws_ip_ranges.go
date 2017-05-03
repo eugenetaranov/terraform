@@ -9,8 +9,8 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/eugenetaranov/terraform/helper/schema"
 	"github.com/hashicorp/go-cleanhttp"
-	"github.com/hashicorp/terraform/helper/schema"
 )
 
 type dataSourceAwsIPRangesResult struct {

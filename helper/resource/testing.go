@@ -13,11 +13,11 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
+	"github.com/eugenetaranov/terraform/config/module"
+	"github.com/eugenetaranov/terraform/helper/logging"
+	"github.com/eugenetaranov/terraform/terraform"
 	"github.com/hashicorp/go-getter"
 	"github.com/hashicorp/go-multierror"
-	"github.com/hashicorp/terraform/config/module"
-	"github.com/hashicorp/terraform/helper/logging"
-	"github.com/hashicorp/terraform/terraform"
 )
 
 const TestEnvVar = "TF_ACC"

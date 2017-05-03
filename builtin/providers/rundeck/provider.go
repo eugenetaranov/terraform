@@ -1,8 +1,8 @@
 package rundeck
 
 import (
-	"github.com/hashicorp/terraform/helper/schema"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/eugenetaranov/terraform/helper/schema"
+	"github.com/eugenetaranov/terraform/terraform"
 
 	"github.com/apparentlymart/go-rundeck-api/rundeck"
 )

@@ -7,9 +7,9 @@ import (
 	"testing"
 
 	heroku "github.com/cyberdelia/heroku-go/v3"
-	"github.com/hashicorp/terraform/helper/acctest"
-	"github.com/hashicorp/terraform/helper/resource"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/eugenetaranov/terraform/helper/acctest"
+	"github.com/eugenetaranov/terraform/helper/resource"
+	"github.com/eugenetaranov/terraform/terraform"
 )
 
 func TestAccHerokuSpace_Basic(t *testing.T) {

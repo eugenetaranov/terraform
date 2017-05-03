@@ -1,7 +1,7 @@
 package terraform
 
 import (
-	"github.com/hashicorp/terraform/dag"
+	"github.com/eugenetaranov/terraform/dag"
 )
 
 // NodeRefreshableDataResource represents a resource that is "plannable":

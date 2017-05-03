@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/denverdino/aliyungo/ecs"
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/eugenetaranov/terraform/helper/schema"
 )
 
 func dataSourceAlicloudImages() *schema.Resource {

@@ -4,7 +4,7 @@ import (
 	"log"
 
 	"github.com/dnsimple/dnsimple-go/dnsimple"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/eugenetaranov/terraform/terraform"
 )
 
 type Config struct {

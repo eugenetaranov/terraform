@@ -8,11 +8,11 @@ import (
 	"sort"
 	"strings"
 
+	"github.com/eugenetaranov/terraform/backend"
+	"github.com/eugenetaranov/terraform/config"
+	"github.com/eugenetaranov/terraform/config/module"
+	"github.com/eugenetaranov/terraform/terraform"
 	"github.com/hashicorp/go-getter"
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/config"
-	"github.com/hashicorp/terraform/config/module"
-	"github.com/hashicorp/terraform/terraform"
 )
 
 // ApplyCommand is a Command implementation that applies a Terraform

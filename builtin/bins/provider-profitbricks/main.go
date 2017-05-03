@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/hashicorp/terraform/builtin/providers/profitbricks"
-	"github.com/hashicorp/terraform/plugin"
+	"github.com/eugenetaranov/terraform/builtin/providers/profitbricks"
+	"github.com/eugenetaranov/terraform/plugin"
 )
 
 func main() {

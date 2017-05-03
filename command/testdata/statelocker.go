@@ -11,7 +11,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/hashicorp/terraform/state"
+	"github.com/eugenetaranov/terraform/state"
 )
 
 func main() {

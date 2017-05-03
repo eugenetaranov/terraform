@@ -5,8 +5,8 @@ import (
 	"log"
 	"strconv"
 
+	"github.com/eugenetaranov/terraform/config"
 	"github.com/hashicorp/go-multierror"
-	"github.com/hashicorp/terraform/config"
 )
 
 // EvalApply is an EvalNode implementation that writes the diff to

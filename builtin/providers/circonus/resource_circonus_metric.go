@@ -8,8 +8,8 @@ package circonus
 // implicitly set the `unit` metric to `seconds`).
 
 import (
+	"github.com/eugenetaranov/terraform/helper/schema"
 	"github.com/hashicorp/errwrap"
-	"github.com/hashicorp/terraform/helper/schema"
 )
 
 const (

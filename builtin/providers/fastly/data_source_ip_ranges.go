@@ -8,9 +8,9 @@ import (
 	"sort"
 	"strconv"
 
+	"github.com/eugenetaranov/terraform/helper/hashcode"
+	"github.com/eugenetaranov/terraform/helper/schema"
 	"github.com/hashicorp/go-cleanhttp"
-	"github.com/hashicorp/terraform/helper/hashcode"
-	"github.com/hashicorp/terraform/helper/schema"
 )
 
 type dataSourceFastlyIPRangesResult struct {

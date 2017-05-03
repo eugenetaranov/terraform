@@ -7,10 +7,10 @@ import (
 	"net/http"
 	"os"
 
+	"github.com/eugenetaranov/terraform/helper/pathorcontents"
 	"github.com/gophercloud/gophercloud"
 	"github.com/gophercloud/gophercloud/openstack"
 	"github.com/gophercloud/gophercloud/openstack/objectstorage/v1/swauth"
-	"github.com/hashicorp/terraform/helper/pathorcontents"
 )
 
 type Config struct {

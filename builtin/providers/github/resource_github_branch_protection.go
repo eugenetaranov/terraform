@@ -5,8 +5,8 @@ import (
 	"errors"
 	"net/http"
 
+	"github.com/eugenetaranov/terraform/helper/schema"
 	"github.com/google/go-github/github"
-	"github.com/hashicorp/terraform/helper/schema"
 )
 
 func resourceGithubBranchProtection() *schema.Resource {

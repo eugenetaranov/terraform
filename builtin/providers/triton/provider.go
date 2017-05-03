@@ -7,10 +7,10 @@ import (
 	"sort"
 	"time"
 
+	"github.com/eugenetaranov/terraform/helper/schema"
+	"github.com/eugenetaranov/terraform/terraform"
 	"github.com/hashicorp/errwrap"
 	"github.com/hashicorp/go-multierror"
-	"github.com/hashicorp/terraform/helper/schema"
-	"github.com/hashicorp/terraform/terraform"
 	"github.com/joyent/triton-go"
 	"github.com/joyent/triton-go/authentication"
 )

@@ -3,8 +3,8 @@ package docker
 import (
 	"fmt"
 
+	"github.com/eugenetaranov/terraform/helper/schema"
 	dc "github.com/fsouza/go-dockerclient"
-	"github.com/hashicorp/terraform/helper/schema"
 )
 
 func resourceDockerNetworkCreate(d *schema.ResourceData, meta interface{}) error {

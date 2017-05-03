@@ -5,9 +5,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/hashicorp/terraform/helper/acctest"
-	"github.com/hashicorp/terraform/helper/resource"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/eugenetaranov/terraform/helper/acctest"
+	"github.com/eugenetaranov/terraform/helper/resource"
+	"github.com/eugenetaranov/terraform/terraform"
 	gofastly "github.com/sethvargo/go-fastly"
 )
 
@@ -389,7 +389,7 @@ func TestAccFastlyServiceV1_defaultTTL(t *testing.T) {
 						"fastly_service_v1.foo", "active_version", "2"),
 				),
 			},
-			// Now update the default_ttl to 0 and encounter the issue https://github.com/hashicorp/terraform/issues/12910
+			// Now update the default_ttl to 0 and encounter the issue https://github.com/eugenetaranov/terraform/issues/12910
 			resource.TestStep{
 				Config: testAccServiceV1Config_backend_update(name, backendName, backendName2, 0),
 				Check: resource.ComposeTestCheckFunc(

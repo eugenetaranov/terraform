@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"log"
 
+	"github.com/eugenetaranov/terraform/helper/schema"
 	"github.com/hashicorp/go-oracle-terraform/compute"
-	"github.com/hashicorp/terraform/helper/schema"
 )
 
 func resourceOPCIPReservation() *schema.Resource {

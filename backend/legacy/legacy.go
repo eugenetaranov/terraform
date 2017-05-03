@@ -3,8 +3,8 @@
 package legacy
 
 import (
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/state/remote"
+	"github.com/eugenetaranov/terraform/backend"
+	"github.com/eugenetaranov/terraform/state/remote"
 )
 
 // Init updates the backend/init package map of initializers to support

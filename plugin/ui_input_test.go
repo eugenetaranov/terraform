@@ -4,8 +4,8 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/eugenetaranov/terraform/terraform"
 	"github.com/hashicorp/go-plugin"
-	"github.com/hashicorp/terraform/terraform"
 )
 
 func TestUIInput_impl(t *testing.T) {

@@ -6,7 +6,7 @@ import (
 	"log"
 	"sort"
 
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/eugenetaranov/terraform/helper/schema"
 	"google.golang.org/api/cloudresourcemanager/v1"
 )
 

@@ -5,8 +5,8 @@ import (
 	"log"
 	"strings"
 
-	"github.com/hashicorp/terraform/config"
-	"github.com/hashicorp/terraform/dag"
+	"github.com/eugenetaranov/terraform/config"
+	"github.com/eugenetaranov/terraform/dag"
 )
 
 // GraphNodeReferenceable must be implemented by any node that represents

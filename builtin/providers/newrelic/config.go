@@ -3,7 +3,7 @@ package newrelic
 import (
 	"log"
 
-	"github.com/hashicorp/terraform/helper/logging"
+	"github.com/eugenetaranov/terraform/helper/logging"
 	newrelic "github.com/paultyng/go-newrelic/api"
 )
 

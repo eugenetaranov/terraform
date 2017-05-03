@@ -1,8 +1,8 @@
 package plugin
 
 import (
+	"github.com/eugenetaranov/terraform/terraform"
 	"github.com/hashicorp/go-plugin"
-	"github.com/hashicorp/terraform/terraform"
 )
 
 // The constants below are the names of the plugins that can be dispensed

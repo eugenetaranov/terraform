@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/circonus-labs/circonus-gometrics/api"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/eugenetaranov/terraform/terraform"
 )
 
 func testAccCheckDestroyCirconusCheckBundle(s *terraform.State) error {

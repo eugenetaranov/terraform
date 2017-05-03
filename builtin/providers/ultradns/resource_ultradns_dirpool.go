@@ -8,9 +8,9 @@ import (
 	"strings"
 
 	"github.com/Ensighten/udnssdk"
+	"github.com/eugenetaranov/terraform/helper/hashcode"
+	"github.com/eugenetaranov/terraform/helper/schema"
 	"github.com/fatih/structs"
-	"github.com/hashicorp/terraform/helper/hashcode"
-	"github.com/hashicorp/terraform/helper/schema"
 	"github.com/mitchellh/mapstructure"
 )
 

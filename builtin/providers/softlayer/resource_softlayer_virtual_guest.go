@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"encoding/base64"
-	"github.com/hashicorp/terraform/helper/resource"
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/eugenetaranov/terraform/helper/resource"
+	"github.com/eugenetaranov/terraform/helper/schema"
 	datatypes "github.com/maximilien/softlayer-go/data_types"
 	"github.com/maximilien/softlayer-go/softlayer"
 	"math"

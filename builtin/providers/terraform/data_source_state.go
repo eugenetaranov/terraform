@@ -5,11 +5,11 @@ import (
 	"log"
 	"time"
 
-	"github.com/hashicorp/terraform/backend"
-	backendinit "github.com/hashicorp/terraform/backend/init"
-	"github.com/hashicorp/terraform/config"
-	"github.com/hashicorp/terraform/helper/schema"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/eugenetaranov/terraform/backend"
+	backendinit "github.com/eugenetaranov/terraform/backend/init"
+	"github.com/eugenetaranov/terraform/config"
+	"github.com/eugenetaranov/terraform/helper/schema"
+	"github.com/eugenetaranov/terraform/terraform"
 )
 
 func dataSourceRemoteState() *schema.Resource {

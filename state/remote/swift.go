@@ -14,11 +14,11 @@ import (
 	"strings"
 	"time"
 
+	tf_openstack "github.com/eugenetaranov/terraform/builtin/providers/openstack"
 	"github.com/gophercloud/gophercloud"
 	"github.com/gophercloud/gophercloud/openstack"
 	"github.com/gophercloud/gophercloud/openstack/objectstorage/v1/containers"
 	"github.com/gophercloud/gophercloud/openstack/objectstorage/v1/objects"
-	tf_openstack "github.com/hashicorp/terraform/builtin/providers/openstack"
 )
 
 const TFSTATE_NAME = "tfstate.tf"

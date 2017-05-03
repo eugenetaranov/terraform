@@ -5,8 +5,8 @@ import (
 	"net"
 	"strings"
 
-	"github.com/hashicorp/terraform/helper/schema"
-	"github.com/hashicorp/terraform/helper/structure"
+	"github.com/eugenetaranov/terraform/helper/schema"
+	"github.com/eugenetaranov/terraform/helper/structure"
 )
 
 // IntBetween returns a SchemaValidateFunc which tests if the provided value

@@ -7,8 +7,8 @@ import (
 
 	"github.com/michaelklishin/rabbit-hole"
 
-	"github.com/hashicorp/terraform/helper/resource"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/eugenetaranov/terraform/helper/resource"
+	"github.com/eugenetaranov/terraform/terraform"
 )
 
 func TestAccPolicy(t *testing.T) {

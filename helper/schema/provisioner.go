@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"sync"
 
+	"github.com/eugenetaranov/terraform/config"
+	"github.com/eugenetaranov/terraform/terraform"
 	"github.com/hashicorp/go-multierror"
-	"github.com/hashicorp/terraform/config"
-	"github.com/hashicorp/terraform/terraform"
 )
 
 // Provisioner represents a resource provisioner in Terraform and properly

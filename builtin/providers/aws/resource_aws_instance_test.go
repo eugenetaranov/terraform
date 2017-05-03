@@ -8,10 +8,10 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/awserr"
 	"github.com/aws/aws-sdk-go/service/ec2"
-	"github.com/hashicorp/terraform/helper/acctest"
-	"github.com/hashicorp/terraform/helper/resource"
-	"github.com/hashicorp/terraform/helper/schema"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/eugenetaranov/terraform/helper/acctest"
+	"github.com/eugenetaranov/terraform/helper/resource"
+	"github.com/eugenetaranov/terraform/helper/schema"
+	"github.com/eugenetaranov/terraform/terraform"
 )
 
 func TestAccAWSInstance_basic(t *testing.T) {
@@ -612,7 +612,7 @@ func TestAccAWSInstance_tags(t *testing.T) {
 				Check: resource.ComposeTestCheckFunc(
 					testAccCheckInstanceExists("aws_instance.foo", &v),
 					testAccCheckTags(&v.Tags, "foo", "bar"),
-					// Guard against regression of https://github.com/hashicorp/terraform/issues/914
+					// Guard against regression of https://github.com/eugenetaranov/terraform/issues/914
 					testAccCheckTags(&v.Tags, "#", ""),
 				),
 			},
@@ -808,7 +808,7 @@ func TestAccAWSInstance_associatePublicIPAndPrivateIP(t *testing.T) {
 }
 
 // Guard against regression with KeyPairs
-// https://github.com/hashicorp/terraform/issues/2302
+// https://github.com/eugenetaranov/terraform/issues/2302
 func TestAccAWSInstance_keyPairCheck(t *testing.T) {
 	var v ec2.Instance
 
@@ -864,7 +864,7 @@ func TestAccAWSInstance_rootBlockDeviceMismatch(t *testing.T) {
 }
 
 // This test reproduces the bug here:
-//   https://github.com/hashicorp/terraform/issues/1752
+//   https://github.com/eugenetaranov/terraform/issues/1752
 //
 // I wish there were a way to exercise resources built with helper.Schema in a
 // unit context, in which case this test could be moved there, but for now this

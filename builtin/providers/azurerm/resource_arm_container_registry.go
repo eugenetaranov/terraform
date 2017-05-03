@@ -9,8 +9,8 @@ import (
 	"regexp"
 
 	"github.com/Azure/azure-sdk-for-go/arm/containerregistry"
-	"github.com/hashicorp/terraform/helper/hashcode"
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/eugenetaranov/terraform/helper/hashcode"
+	"github.com/eugenetaranov/terraform/helper/schema"
 	"github.com/jen20/riviera/azure"
 )
 

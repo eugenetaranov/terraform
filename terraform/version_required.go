@@ -3,9 +3,9 @@ package terraform
 import (
 	"fmt"
 
+	"github.com/eugenetaranov/terraform/config"
+	"github.com/eugenetaranov/terraform/config/module"
 	"github.com/hashicorp/go-version"
-	"github.com/hashicorp/terraform/config"
-	"github.com/hashicorp/terraform/config/module"
 )
 
 // checkRequiredVersion verifies that any version requirements specified by

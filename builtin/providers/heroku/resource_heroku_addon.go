@@ -8,7 +8,7 @@ import (
 	"sync"
 
 	"github.com/cyberdelia/heroku-go/v3"
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/eugenetaranov/terraform/helper/schema"
 )
 
 // Global lock to prevent parallelism for heroku_addon since

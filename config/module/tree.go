@@ -8,8 +8,8 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/eugenetaranov/terraform/config"
 	"github.com/hashicorp/go-getter"
-	"github.com/hashicorp/terraform/config"
 )
 
 // RootName is the name of the root tree.

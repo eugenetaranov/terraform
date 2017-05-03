@@ -6,9 +6,9 @@ import (
 	"log"
 	"sync"
 
-	"github.com/hashicorp/terraform/config"
-	"github.com/hashicorp/terraform/config/module"
-	"github.com/hashicorp/terraform/dag"
+	"github.com/eugenetaranov/terraform/config"
+	"github.com/eugenetaranov/terraform/config/module"
+	"github.com/eugenetaranov/terraform/dag"
 )
 
 // ConfigTransformer is a GraphTransformer that adds all the resources

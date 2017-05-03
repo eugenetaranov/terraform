@@ -11,11 +11,11 @@ import (
 	"sync"
 
 	"github.com/Azure/azure-sdk-for-go/arm/resources/resources"
+	"github.com/eugenetaranov/terraform/helper/mutexkv"
+	"github.com/eugenetaranov/terraform/helper/resource"
+	"github.com/eugenetaranov/terraform/helper/schema"
+	"github.com/eugenetaranov/terraform/terraform"
 	"github.com/hashicorp/go-multierror"
-	"github.com/hashicorp/terraform/helper/mutexkv"
-	"github.com/hashicorp/terraform/helper/resource"
-	"github.com/hashicorp/terraform/helper/schema"
-	"github.com/hashicorp/terraform/terraform"
 	riviera "github.com/jen20/riviera/azure"
 )
 

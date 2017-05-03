@@ -8,10 +8,10 @@ import (
 	"sort"
 	"strings"
 
+	"github.com/eugenetaranov/terraform/backend"
+	"github.com/eugenetaranov/terraform/terraform"
 	"github.com/hashicorp/atlas-go/archive"
 	"github.com/hashicorp/atlas-go/v1"
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/terraform"
 )
 
 type PushCommand struct {

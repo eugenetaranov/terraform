@@ -19,10 +19,10 @@ import (
 	"syscall"
 	"testing"
 
+	"github.com/eugenetaranov/terraform/config/module"
+	"github.com/eugenetaranov/terraform/helper/logging"
+	"github.com/eugenetaranov/terraform/terraform"
 	"github.com/hashicorp/go-getter"
-	"github.com/hashicorp/terraform/config/module"
-	"github.com/hashicorp/terraform/helper/logging"
-	"github.com/hashicorp/terraform/terraform"
 )
 
 // This is the directory where our test fixtures are.

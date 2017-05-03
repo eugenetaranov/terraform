@@ -3,8 +3,8 @@ package opc
 import (
 	"fmt"
 
+	"github.com/eugenetaranov/terraform/helper/schema"
 	"github.com/hashicorp/go-oracle-terraform/compute"
-	"github.com/hashicorp/terraform/helper/schema"
 )
 
 func resourceOPCRoute() *schema.Resource {

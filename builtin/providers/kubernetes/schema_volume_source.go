@@ -1,7 +1,7 @@
 package kubernetes
 
 import (
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/eugenetaranov/terraform/helper/schema"
 )
 
 func persistentVolumeSourceSchema() *schema.Resource {

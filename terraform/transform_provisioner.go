@@ -3,8 +3,8 @@ package terraform
 import (
 	"fmt"
 
+	"github.com/eugenetaranov/terraform/dag"
 	"github.com/hashicorp/go-multierror"
-	"github.com/hashicorp/terraform/dag"
 )
 
 // GraphNodeProvisioner is an interface that nodes that can be a provisioner

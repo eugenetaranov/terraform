@@ -3,7 +3,7 @@ package scaleway
 import (
 	"testing"
 
-	"github.com/hashicorp/terraform/helper/resource"
+	"github.com/eugenetaranov/terraform/helper/resource"
 )
 
 func TestAccScalewayVolume_importBasic(t *testing.T) {

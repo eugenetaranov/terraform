@@ -10,8 +10,8 @@ import (
 	"sync/atomic"
 	"testing"
 
+	"github.com/eugenetaranov/terraform/terraform"
 	"github.com/hashicorp/go-multierror"
-	"github.com/hashicorp/terraform/terraform"
 )
 
 func init() {

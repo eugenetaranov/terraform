@@ -5,9 +5,9 @@ import (
 	"fmt"
 
 	"github.com/circonus-labs/circonus-gometrics/api"
+	"github.com/eugenetaranov/terraform/helper/schema"
+	"github.com/eugenetaranov/terraform/terraform"
 	"github.com/hashicorp/errwrap"
-	"github.com/hashicorp/terraform/helper/schema"
-	"github.com/hashicorp/terraform/terraform"
 )
 
 const (

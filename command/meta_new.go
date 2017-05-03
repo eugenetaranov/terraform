@@ -5,10 +5,10 @@ import (
 	"os"
 	"strconv"
 
+	"github.com/eugenetaranov/terraform/config"
+	"github.com/eugenetaranov/terraform/config/module"
+	"github.com/eugenetaranov/terraform/terraform"
 	"github.com/hashicorp/errwrap"
-	"github.com/hashicorp/terraform/config"
-	"github.com/hashicorp/terraform/config/module"
-	"github.com/hashicorp/terraform/terraform"
 )
 
 // NOTE: Temporary file until this branch is cleaned up.

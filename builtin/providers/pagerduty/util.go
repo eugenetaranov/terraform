@@ -3,7 +3,7 @@ package pagerduty
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/eugenetaranov/terraform/helper/schema"
 )
 
 // Validate a value against a set of possible values

@@ -10,9 +10,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/terraform/helper/acctest"
-	"github.com/hashicorp/terraform/helper/resource"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/eugenetaranov/terraform/helper/acctest"
+	"github.com/eugenetaranov/terraform/helper/resource"
+	"github.com/eugenetaranov/terraform/terraform"
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/awserr"
@@ -250,7 +250,7 @@ func TestAccAWSDBInstance_enhancedMonitoring(t *testing.T) {
 	})
 }
 
-// Regression test for https://github.com/hashicorp/terraform/issues/3760 .
+// Regression test for https://github.com/eugenetaranov/terraform/issues/3760 .
 // We apply a plan, then change just the iops. If the apply succeeds, we
 // consider this a pass, as before in 3760 the request would fail
 func TestAccAWS_separate_DBInstance_iops_update(t *testing.T) {
@@ -366,7 +366,7 @@ func TestAccAWSDBInstance_MinorVersion(t *testing.T) {
 	})
 }
 
-// See https://github.com/hashicorp/terraform/issues/11881
+// See https://github.com/eugenetaranov/terraform/issues/11881
 func TestAccAWSDBInstance_diffSuppressInitialState(t *testing.T) {
 	var v rds.DBInstance
 	rInt := acctest.RandInt()

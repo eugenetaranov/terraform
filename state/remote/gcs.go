@@ -11,8 +11,8 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/hashicorp/terraform/helper/pathorcontents"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/eugenetaranov/terraform/helper/pathorcontents"
+	"github.com/eugenetaranov/terraform/terraform"
 	"golang.org/x/net/context"
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/google"

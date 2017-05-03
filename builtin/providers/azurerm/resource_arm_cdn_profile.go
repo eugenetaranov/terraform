@@ -8,7 +8,7 @@ import (
 	"strings"
 
 	"github.com/Azure/azure-sdk-for-go/arm/cdn"
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/eugenetaranov/terraform/helper/schema"
 )
 
 func resourceArmCdnProfile() *schema.Resource {

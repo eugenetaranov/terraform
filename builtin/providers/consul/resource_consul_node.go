@@ -3,8 +3,8 @@ package consul
 import (
 	"fmt"
 
+	"github.com/eugenetaranov/terraform/helper/schema"
 	consulapi "github.com/hashicorp/consul/api"
-	"github.com/hashicorp/terraform/helper/schema"
 )
 
 func resourceConsulNode() *schema.Resource {

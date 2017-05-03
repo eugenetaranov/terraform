@@ -3,8 +3,8 @@ package terraform
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform/config"
-	"github.com/hashicorp/terraform/dag"
+	"github.com/eugenetaranov/terraform/config"
+	"github.com/eugenetaranov/terraform/dag"
 )
 
 // ConcreteProviderNodeFunc is a callback type used to convert an

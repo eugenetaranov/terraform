@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/eugenetaranov/terraform/helper/schema"
 
 	"github.com/mitchellh/hashstructure"
 	ns1 "gopkg.in/ns1/ns1-go.v2/rest"

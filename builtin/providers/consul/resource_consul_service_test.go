@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/eugenetaranov/terraform/helper/resource"
+	"github.com/eugenetaranov/terraform/terraform"
 	consulapi "github.com/hashicorp/consul/api"
-	"github.com/hashicorp/terraform/helper/resource"
-	"github.com/hashicorp/terraform/terraform"
 )
 
 func TestAccConsulService_basic(t *testing.T) {

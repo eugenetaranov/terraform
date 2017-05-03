@@ -4,9 +4,9 @@ import (
 	"context"
 	"strings"
 
+	"github.com/eugenetaranov/terraform/backend"
+	"github.com/eugenetaranov/terraform/helper/schema"
 	consulapi "github.com/hashicorp/consul/api"
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/helper/schema"
 )
 
 // New creates a new backend for Consul remote state.

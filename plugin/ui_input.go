@@ -3,8 +3,8 @@ package plugin
 import (
 	"net/rpc"
 
+	"github.com/eugenetaranov/terraform/terraform"
 	"github.com/hashicorp/go-plugin"
-	"github.com/hashicorp/terraform/terraform"
 )
 
 // UIInput is an implementatin of terraform.UIInput that communicates

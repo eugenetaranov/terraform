@@ -3,8 +3,8 @@ package consul
 import (
 	"time"
 
+	"github.com/eugenetaranov/terraform/helper/schema"
 	consulapi "github.com/hashicorp/consul/api"
-	"github.com/hashicorp/terraform/helper/schema"
 )
 
 const (

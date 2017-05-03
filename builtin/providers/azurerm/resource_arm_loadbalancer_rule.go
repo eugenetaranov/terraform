@@ -7,9 +7,9 @@ import (
 	"time"
 
 	"github.com/Azure/azure-sdk-for-go/arm/network"
+	"github.com/eugenetaranov/terraform/helper/resource"
+	"github.com/eugenetaranov/terraform/helper/schema"
 	"github.com/hashicorp/errwrap"
-	"github.com/hashicorp/terraform/helper/resource"
-	"github.com/hashicorp/terraform/helper/schema"
 	"github.com/jen20/riviera/azure"
 )
 

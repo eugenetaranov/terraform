@@ -3,7 +3,7 @@ package azurerm
 import (
 	"testing"
 
-	"github.com/hashicorp/terraform/helper/resource"
+	"github.com/eugenetaranov/terraform/helper/resource"
 )
 
 func TestAccAzureRMLocalNetworkGateway_importBasic(t *testing.T) {

@@ -5,10 +5,10 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/eugenetaranov/terraform/helper/schema"
+	"github.com/eugenetaranov/terraform/helper/structure"
+	"github.com/eugenetaranov/terraform/helper/validation"
 	"github.com/hashicorp/go-oracle-terraform/compute"
-	"github.com/hashicorp/terraform/helper/schema"
-	"github.com/hashicorp/terraform/helper/structure"
-	"github.com/hashicorp/terraform/helper/validation"
 )
 
 func resourceOPCImageListEntry() *schema.Resource {

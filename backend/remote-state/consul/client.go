@@ -9,10 +9,10 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/eugenetaranov/terraform/state"
+	"github.com/eugenetaranov/terraform/state/remote"
 	consulapi "github.com/hashicorp/consul/api"
 	multierror "github.com/hashicorp/go-multierror"
-	"github.com/hashicorp/terraform/state"
-	"github.com/hashicorp/terraform/state/remote"
 )
 
 const (

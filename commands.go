@@ -4,7 +4,7 @@ import (
 	"os"
 	"os/signal"
 
-	"github.com/hashicorp/terraform/command"
+	"github.com/eugenetaranov/terraform/command"
 	"github.com/mitchellh/cli"
 )
 

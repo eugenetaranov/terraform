@@ -8,8 +8,8 @@ import (
 	"time"
 
 	"github.com/digitalocean/godo"
-	"github.com/hashicorp/terraform/helper/resource"
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/eugenetaranov/terraform/helper/resource"
+	"github.com/eugenetaranov/terraform/helper/schema"
 )
 
 func resourceDigitalOceanDroplet() *schema.Resource {
@@ -549,7 +549,7 @@ func WaitForDropletAttribute(
 		MinTimeout: 3 * time.Second,
 
 		// This is a hack around DO API strangeness.
-		// https://github.com/hashicorp/terraform/issues/481
+		// https://github.com/eugenetaranov/terraform/issues/481
 		//
 		NotFoundChecks: 60,
 	}

@@ -4,8 +4,8 @@ import (
 	"testing"
 
 	"fmt"
-	"github.com/hashicorp/terraform/helper/acctest"
-	"github.com/hashicorp/terraform/helper/resource"
+	"github.com/eugenetaranov/terraform/helper/acctest"
+	"github.com/eugenetaranov/terraform/helper/resource"
 )
 
 func TestAccOPCStorageVolume_importBasic(t *testing.T) {

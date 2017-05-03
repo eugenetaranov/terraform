@@ -15,9 +15,9 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/hashicorp/terraform/communicator"
-	"github.com/hashicorp/terraform/communicator/remote"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/eugenetaranov/terraform/communicator"
+	"github.com/eugenetaranov/terraform/communicator/remote"
+	"github.com/eugenetaranov/terraform/terraform"
 	"github.com/mitchellh/go-homedir"
 	"github.com/mitchellh/go-linereader"
 	"github.com/mitchellh/mapstructure"

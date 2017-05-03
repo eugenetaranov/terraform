@@ -66,10 +66,10 @@ import (
 	"github.com/aws/aws-sdk-go/service/sts"
 	"github.com/aws/aws-sdk-go/service/waf"
 	"github.com/davecgh/go-spew/spew"
+	"github.com/eugenetaranov/terraform/helper/logging"
+	"github.com/eugenetaranov/terraform/terraform"
 	"github.com/hashicorp/errwrap"
 	"github.com/hashicorp/go-cleanhttp"
-	"github.com/hashicorp/terraform/helper/logging"
-	"github.com/hashicorp/terraform/terraform"
 )
 
 type Config struct {

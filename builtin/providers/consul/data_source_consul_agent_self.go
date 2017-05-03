@@ -5,9 +5,9 @@ import (
 	"strconv"
 	"time"
 
+	"github.com/eugenetaranov/terraform/helper/schema"
 	consulapi "github.com/hashicorp/consul/api"
 	"github.com/hashicorp/errwrap"
-	"github.com/hashicorp/terraform/helper/schema"
 )
 
 const (

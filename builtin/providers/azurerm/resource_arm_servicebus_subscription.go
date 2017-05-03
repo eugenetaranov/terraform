@@ -6,7 +6,7 @@ import (
 	"net/http"
 
 	"github.com/Azure/azure-sdk-for-go/arm/servicebus"
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/eugenetaranov/terraform/helper/schema"
 )
 
 func resourceArmServiceBusSubscription() *schema.Resource {

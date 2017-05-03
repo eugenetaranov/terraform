@@ -7,8 +7,8 @@ import (
 	"regexp"
 
 	"github.com/Azure/azure-sdk-for-go/arm/trafficmanager"
-	"github.com/hashicorp/terraform/helper/schema"
-	"github.com/hashicorp/terraform/helper/validation"
+	"github.com/eugenetaranov/terraform/helper/schema"
+	"github.com/eugenetaranov/terraform/helper/validation"
 )
 
 func resourceArmTrafficManagerEndpoint() *schema.Resource {

@@ -1,8 +1,8 @@
 package opc
 
 import (
+	"github.com/eugenetaranov/terraform/helper/schema"
 	"github.com/hashicorp/go-oracle-terraform/compute"
-	"github.com/hashicorp/terraform/helper/schema"
 )
 
 func resourceOPCImageList() *schema.Resource {

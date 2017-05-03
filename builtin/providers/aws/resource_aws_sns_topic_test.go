@@ -7,9 +7,9 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/awserr"
 	"github.com/aws/aws-sdk-go/service/sns"
-	"github.com/hashicorp/terraform/helper/acctest"
-	"github.com/hashicorp/terraform/helper/resource"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/eugenetaranov/terraform/helper/acctest"
+	"github.com/eugenetaranov/terraform/helper/resource"
+	"github.com/eugenetaranov/terraform/terraform"
 	"github.com/jen20/awspolicyequivalence"
 )
 
@@ -201,7 +201,7 @@ EOF
 `, r)
 }
 
-// Test for https://github.com/hashicorp/terraform/issues/3660
+// Test for https://github.com/eugenetaranov/terraform/issues/3660
 const testAccAWSSNSTopicConfig_withIAMRole = `
 resource "aws_iam_role" "example" {
   name = "terraform_bug"

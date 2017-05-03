@@ -6,8 +6,8 @@ import (
 	"log"
 	"sync"
 
-	"github.com/hashicorp/terraform/helper/hashcode"
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/eugenetaranov/terraform/helper/hashcode"
+	"github.com/eugenetaranov/terraform/helper/schema"
 	cobbler "github.com/jtopjian/cobblerclient"
 )
 

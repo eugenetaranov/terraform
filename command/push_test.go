@@ -12,9 +12,9 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/eugenetaranov/terraform/helper/copy"
+	"github.com/eugenetaranov/terraform/terraform"
 	atlas "github.com/hashicorp/atlas-go/v1"
-	"github.com/hashicorp/terraform/helper/copy"
-	"github.com/hashicorp/terraform/terraform"
 	"github.com/mitchellh/cli"
 )
 

@@ -12,8 +12,8 @@ import (
 	"os"
 	"path"
 
-	"github.com/hashicorp/terraform/helper/hashcode"
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/eugenetaranov/terraform/helper/hashcode"
+	"github.com/eugenetaranov/terraform/helper/schema"
 )
 
 func dataSourceFile() *schema.Resource {

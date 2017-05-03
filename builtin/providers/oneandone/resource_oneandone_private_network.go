@@ -3,7 +3,7 @@ package oneandone
 import (
 	"fmt"
 	"github.com/1and1/oneandone-cloudserver-sdk-go"
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/eugenetaranov/terraform/helper/schema"
 	"strings"
 )
 
