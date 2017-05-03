@@ -164,6 +164,14 @@ func (c *Config) networkingV2Client(region string) (*gophercloud.ServiceClient, 
 		Region:       region,
 		Availability: c.getEndpointType(),
 	})
+
+}
+
+func (c *Config) databaseInstanceV1Client(region string) (*gophercloud.ServiceClient, error) {
+	return openstack.NewDBV1(c.osClient, gophercloud.EndpointOpts{
+		Region:       region,
+		Availability: c.getEndpointType(),
+	})
 }
 
 func (c *Config) objectStorageV1Client(region string) (*gophercloud.ServiceClient, error) {
