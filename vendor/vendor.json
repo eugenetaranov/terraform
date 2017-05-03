@@ -1699,6 +1699,12 @@
 			"revisionTime": "2017-03-10T01:59:53Z"
 		},
 		{
+			"checksumSHA1": "FAS/1YR1dE11iMwcyCyehuwyF40=",
+			"path": "github.com/gophercloud/gophercloud/openstack/db/v1/instances",
+			"revision": "9a5595b8ffe429439c63781cdc312c254e4ad990",
+			"revisionTime": "2017-03-13T18:04:29Z"
+		},
+		{
 			"checksumSHA1": "1sVqsZBZBNhDXLY9XzjMkcOkcbg=",
 			"path": "github.com/gophercloud/gophercloud/openstack/identity/v2/tenants",
 			"revision": "0f64da0e36de86a0ca1a8f2fc1b0570a0d3f7504",
