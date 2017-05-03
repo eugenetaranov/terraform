@@ -32,19 +32,14 @@ func resourceDatabaseInstanceV1() *schema.Resource {
 			"name": &schema.Schema{
 				Type:     schema.TypeString,
 				Required: true,
-				ForceNew: false,
+				ForceNew: true,
 			},
 			"flavor_id": &schema.Schema{
 				Type:        schema.TypeString,
 				Optional:    true,
-				ForceNew:    false,
+				ForceNew:    true,
 				Computed:    true,
 				DefaultFunc: schema.EnvDefaultFunc("OS_FLAVOR_ID", nil),
-			},
-			"size": &schema.Schema{
-				Type:     schema.TypeInt,
-				Required: true,
-				ForceNew: true,
 			},
 		},
 	}
@@ -60,8 +55,7 @@ func resourceDatabaseInstanceV1Create(d *schema.ResourceData, meta interface{}) 
 
 	createOpts := &instances.CreateOpts{
 		FlavorRef: d.Get("flavor_id").(string),
-		Size: d.Get("size").(int),
-		Name: d.Get("name").(string),
+		Name:      d.Get("name").(string),
 	}
 
 	log.Printf("[DEBUG] Create Options: %#v", createOpts)
@@ -112,9 +106,8 @@ func resourceDatabaseInstanceV1Read(d *schema.ResourceData, meta interface{}) er
 
 	log.Printf("[DEBUG] Retrieved instance %s: %+v", d.Id(), instance)
 
-	d.Set("size", instance.Size)
 	d.Set("name", instance.Name)
-	d.Set("flavor_id", instance.FlavorRef)
+	d.Set("flavor_id", instance.Flavor)
 	d.Set("region", GetRegion(d))
 
 	return nil
@@ -127,10 +120,10 @@ func resourceDatabaseInstanceV1Delete(d *schema.ResourceData, meta interface{}) 
 		return fmt.Errorf("Error creating RS cloud instance client: %s", err)
 	}
 
-	instance, err := instances.Get(databaseInstanceClient, d.Id()).Extract()
-	if err != nil {
-		return CheckDeleted(d, err, "instance")
-	}
+	//instance, err := instances.Get(databaseInstanceClient, d.Id()).Extract()
+	//if err != nil {
+	//	return CheckDeleted(d, err, "instance")
+	//}
 
 	log.Printf("[DEBUG] Deleting cloud database instance %s", d.Id())
 	err = instances.Delete(databaseInstanceClient, d.Id()).ExtractErr()
