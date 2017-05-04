@@ -41,6 +41,11 @@ func resourceDatabaseInstanceV1() *schema.Resource {
 				Computed:    true,
 				DefaultFunc: schema.EnvDefaultFunc("OS_FLAVOR_ID", nil),
 			},
+			"size": &schema.Schema{
+				Type:     schema.TypeInt,
+				Required: true,
+				ForceNew: true,
+			},
 		},
 	}
 }
@@ -56,6 +61,7 @@ func resourceDatabaseInstanceV1Create(d *schema.ResourceData, meta interface{}) 
 	createOpts := &instances.CreateOpts{
 		FlavorRef: d.Get("flavor_id").(string),
 		Name:      d.Get("name").(string),
+		Size:      d.Get("size").(int),
 	}
 
 	log.Printf("[DEBUG] Create Options: %#v", createOpts)
@@ -108,6 +114,7 @@ func resourceDatabaseInstanceV1Read(d *schema.ResourceData, meta interface{}) er
 
 	d.Set("name", instance.Name)
 	d.Set("flavor_id", instance.Flavor)
+	d.Set("size", instance.Size)
 	d.Set("region", GetRegion(d))
 
 	return nil
