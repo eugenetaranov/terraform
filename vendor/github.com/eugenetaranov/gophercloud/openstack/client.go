@@ -302,7 +302,7 @@ func NewOrchestrationV1(client *gophercloud.ProviderClient, eo gophercloud.Endpo
 
 // NewDBV1 creates a ServiceClient that may be used to access the v1 DB service.
 func NewDBV1(client *gophercloud.ProviderClient, eo gophercloud.EndpointOpts) (*gophercloud.ServiceClient, error) {
-	eo.ApplyDefaults("database")
+	eo.ApplyDefaults("rax:database")
 	url, err := client.EndpointLocator(eo)
 	if err != nil {
 		return nil, err
