@@ -9,9 +9,6 @@ import (
 	"os"
 	"time"
 
-	"github.com/eugenetaranov/terraform/helper/hashcode"
-	"github.com/eugenetaranov/terraform/helper/resource"
-	"github.com/eugenetaranov/terraform/helper/schema"
 	"github.com/eugenetaranov/gophercloud"
 	"github.com/eugenetaranov/gophercloud/openstack/compute/v2/extensions/availabilityzones"
 	"github.com/eugenetaranov/gophercloud/openstack/compute/v2/extensions/bootfromvolume"
@@ -25,6 +22,9 @@ import (
 	"github.com/eugenetaranov/gophercloud/openstack/compute/v2/flavors"
 	"github.com/eugenetaranov/gophercloud/openstack/compute/v2/images"
 	"github.com/eugenetaranov/gophercloud/openstack/compute/v2/servers"
+	"github.com/eugenetaranov/terraform/helper/hashcode"
+	"github.com/eugenetaranov/terraform/helper/resource"
+	"github.com/eugenetaranov/terraform/helper/schema"
 )
 
 func resourceComputeInstanceV2() *schema.Resource {

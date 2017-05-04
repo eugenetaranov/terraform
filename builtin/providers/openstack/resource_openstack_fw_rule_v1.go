@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/eugenetaranov/terraform/helper/schema"
 	"github.com/eugenetaranov/gophercloud"
 	"github.com/eugenetaranov/gophercloud/openstack/networking/v2/extensions/fwaas/policies"
 	"github.com/eugenetaranov/gophercloud/openstack/networking/v2/extensions/fwaas/rules"
+	"github.com/eugenetaranov/terraform/helper/schema"
 )
 
 func resourceFWRuleV1() *schema.Resource {

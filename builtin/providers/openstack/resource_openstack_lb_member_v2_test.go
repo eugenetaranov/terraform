@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/eugenetaranov/gophercloud/openstack/networking/v2/extensions/lbaas_v2/pools"
 	"github.com/eugenetaranov/terraform/helper/resource"
 	"github.com/eugenetaranov/terraform/terraform"
-	"github.com/eugenetaranov/gophercloud/openstack/networking/v2/extensions/lbaas_v2/pools"
 )
 
 func TestAccLBV2Member_basic(t *testing.T) {

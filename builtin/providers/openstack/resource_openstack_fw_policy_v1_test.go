@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/eugenetaranov/terraform/helper/resource"
-	"github.com/eugenetaranov/terraform/terraform"
 	"github.com/eugenetaranov/gophercloud"
 	"github.com/eugenetaranov/gophercloud/openstack/networking/v2/extensions/fwaas/policies"
+	"github.com/eugenetaranov/terraform/helper/resource"
+	"github.com/eugenetaranov/terraform/terraform"
 )
 
 func TestAccFWPolicyV1_basic(t *testing.T) {

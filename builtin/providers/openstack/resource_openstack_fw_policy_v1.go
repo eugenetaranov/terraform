@@ -5,10 +5,10 @@ import (
 	"log"
 	"time"
 
-	"github.com/eugenetaranov/terraform/helper/resource"
-	"github.com/eugenetaranov/terraform/helper/schema"
 	"github.com/eugenetaranov/gophercloud"
 	"github.com/eugenetaranov/gophercloud/openstack/networking/v2/extensions/fwaas/policies"
+	"github.com/eugenetaranov/terraform/helper/resource"
+	"github.com/eugenetaranov/terraform/helper/schema"
 )
 
 func resourceFWPolicyV1() *schema.Resource {

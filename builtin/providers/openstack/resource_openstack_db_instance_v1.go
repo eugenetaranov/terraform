@@ -5,10 +5,10 @@ import (
 	"log"
 	"time"
 
-	"github.com/eugenetaranov/terraform/helper/resource"
-	"github.com/eugenetaranov/terraform/helper/schema"
 	"github.com/eugenetaranov/gophercloud"
 	"github.com/eugenetaranov/gophercloud/openstack/db/v1/instances"
+	"github.com/eugenetaranov/terraform/helper/resource"
+	"github.com/eugenetaranov/terraform/helper/schema"
 )
 
 func resourceDatabaseInstanceV1() *schema.Resource {

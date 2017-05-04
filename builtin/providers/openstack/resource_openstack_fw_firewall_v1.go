@@ -5,10 +5,10 @@ import (
 	"log"
 	"time"
 
-	"github.com/eugenetaranov/terraform/helper/resource"
-	"github.com/eugenetaranov/terraform/helper/schema"
 	"github.com/eugenetaranov/gophercloud"
 	"github.com/eugenetaranov/gophercloud/openstack/networking/v2/extensions/fwaas/firewalls"
+	"github.com/eugenetaranov/terraform/helper/resource"
+	"github.com/eugenetaranov/terraform/helper/schema"
 )
 
 func resourceFWFirewallV1() *schema.Resource {
