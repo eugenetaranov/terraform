@@ -114,7 +114,6 @@ func resourceDatabaseInstanceV1Read(d *schema.ResourceData, meta interface{}) er
 
 	d.Set("name", instance.Name)
 	d.Set("flavor_id", instance.Flavor)
-	d.Set("size", instance.Size)
 	d.Set("region", GetRegion(d))
 
 	return nil
