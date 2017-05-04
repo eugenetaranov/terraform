@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/openstack/compute/v2/servers"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/layer3/floatingips"
+	"github.com/eugenetaranov/gophercloud"
+	"github.com/eugenetaranov/gophercloud/openstack/compute/v2/servers"
+	"github.com/eugenetaranov/gophercloud/openstack/networking/v2/extensions/layer3/floatingips"
 
 	"github.com/eugenetaranov/terraform/helper/resource"
 	"github.com/eugenetaranov/terraform/terraform"

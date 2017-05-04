@@ -8,9 +8,9 @@ import (
 	"os"
 
 	"github.com/eugenetaranov/terraform/helper/pathorcontents"
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/openstack"
-	"github.com/gophercloud/gophercloud/openstack/objectstorage/v1/swauth"
+	"github.com/eugenetaranov/gophercloud"
+	"github.com/eugenetaranov/gophercloud/openstack"
+	"github.com/eugenetaranov/gophercloud/openstack/objectstorage/v1/swauth"
 )
 
 type Config struct {

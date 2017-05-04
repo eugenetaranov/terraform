@@ -7,10 +7,10 @@ import (
 	"github.com/eugenetaranov/terraform/helper/resource"
 	"github.com/eugenetaranov/terraform/terraform"
 
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/layer3/routers"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/networks"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/ports"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/subnets"
+	"github.com/eugenetaranov/gophercloud/openstack/networking/v2/extensions/layer3/routers"
+	"github.com/eugenetaranov/gophercloud/openstack/networking/v2/networks"
+	"github.com/eugenetaranov/gophercloud/openstack/networking/v2/ports"
+	"github.com/eugenetaranov/gophercloud/openstack/networking/v2/subnets"
 )
 
 func TestAccNetworkingV2RouterInterface_basic_subnet(t *testing.T) {

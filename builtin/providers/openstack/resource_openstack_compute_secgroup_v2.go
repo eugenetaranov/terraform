@@ -10,8 +10,8 @@ import (
 	"github.com/eugenetaranov/terraform/helper/hashcode"
 	"github.com/eugenetaranov/terraform/helper/resource"
 	"github.com/eugenetaranov/terraform/helper/schema"
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/openstack/compute/v2/extensions/secgroups"
+	"github.com/eugenetaranov/gophercloud"
+	"github.com/eugenetaranov/gophercloud/openstack/compute/v2/extensions/secgroups"
 )
 
 func resourceComputeSecGroupV2() *schema.Resource {

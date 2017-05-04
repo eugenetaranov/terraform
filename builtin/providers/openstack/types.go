@@ -9,16 +9,16 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/gophercloud/gophercloud/openstack/compute/v2/extensions/keypairs"
-	"github.com/gophercloud/gophercloud/openstack/compute/v2/extensions/servergroups"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/fwaas/firewalls"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/fwaas/policies"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/fwaas/rules"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/layer3/floatingips"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/layer3/routers"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/networks"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/ports"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/subnets"
+	"github.com/eugenetaranov/gophercloud/openstack/compute/v2/extensions/keypairs"
+	"github.com/eugenetaranov/gophercloud/openstack/compute/v2/extensions/servergroups"
+	"github.com/eugenetaranov/gophercloud/openstack/networking/v2/extensions/fwaas/firewalls"
+	"github.com/eugenetaranov/gophercloud/openstack/networking/v2/extensions/fwaas/policies"
+	"github.com/eugenetaranov/gophercloud/openstack/networking/v2/extensions/fwaas/rules"
+	"github.com/eugenetaranov/gophercloud/openstack/networking/v2/extensions/layer3/floatingips"
+	"github.com/eugenetaranov/gophercloud/openstack/networking/v2/extensions/layer3/routers"
+	"github.com/eugenetaranov/gophercloud/openstack/networking/v2/networks"
+	"github.com/eugenetaranov/gophercloud/openstack/networking/v2/ports"
+	"github.com/eugenetaranov/gophercloud/openstack/networking/v2/subnets"
 )
 
 // LogRoundTripper satisfies the http.RoundTripper interface and is used to

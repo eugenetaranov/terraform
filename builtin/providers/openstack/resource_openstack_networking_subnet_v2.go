@@ -8,8 +8,8 @@ import (
 	"github.com/eugenetaranov/terraform/helper/resource"
 	"github.com/eugenetaranov/terraform/helper/schema"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/subnets"
+	"github.com/eugenetaranov/gophercloud"
+	"github.com/eugenetaranov/gophercloud/openstack/networking/v2/subnets"
 )
 
 func resourceNetworkingSubnetV2() *schema.Resource {

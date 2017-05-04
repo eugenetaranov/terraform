@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/gophercloud/gophercloud/openstack/imageservice/v2/images"
+	"github.com/eugenetaranov/gophercloud/openstack/imageservice/v2/images"
 
 	"github.com/eugenetaranov/terraform/helper/resource"
 	"github.com/eugenetaranov/terraform/terraform"

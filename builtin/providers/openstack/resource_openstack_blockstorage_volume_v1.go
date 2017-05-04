@@ -9,9 +9,9 @@ import (
 	"github.com/eugenetaranov/terraform/helper/hashcode"
 	"github.com/eugenetaranov/terraform/helper/resource"
 	"github.com/eugenetaranov/terraform/helper/schema"
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/openstack/blockstorage/v1/volumes"
-	"github.com/gophercloud/gophercloud/openstack/compute/v2/extensions/volumeattach"
+	"github.com/eugenetaranov/gophercloud"
+	"github.com/eugenetaranov/gophercloud/openstack/blockstorage/v1/volumes"
+	"github.com/eugenetaranov/gophercloud/openstack/compute/v2/extensions/volumeattach"
 )
 
 func resourceBlockStorageVolumeV1() *schema.Resource {

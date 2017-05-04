@@ -7,9 +7,9 @@ import (
 
 	"github.com/eugenetaranov/terraform/helper/resource"
 	"github.com/eugenetaranov/terraform/helper/schema"
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/layer3/floatingips"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/lbaas/vips"
+	"github.com/eugenetaranov/gophercloud"
+	"github.com/eugenetaranov/gophercloud/openstack/networking/v2/extensions/layer3/floatingips"
+	"github.com/eugenetaranov/gophercloud/openstack/networking/v2/extensions/lbaas/vips"
 )
 
 func resourceLBVipV1() *schema.Resource {

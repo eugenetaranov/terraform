@@ -5,7 +5,7 @@ import (
 	"log"
 
 	"github.com/eugenetaranov/terraform/helper/schema"
-	"github.com/gophercloud/gophercloud/openstack/compute/v2/extensions/keypairs"
+	"github.com/eugenetaranov/gophercloud/openstack/compute/v2/extensions/keypairs"
 )
 
 func resourceComputeKeypairV2() *schema.Resource {

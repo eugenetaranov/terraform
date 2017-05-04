@@ -7,8 +7,8 @@ import (
 	"github.com/eugenetaranov/terraform/helper/resource"
 	"github.com/eugenetaranov/terraform/terraform"
 
-	"github.com/gophercloud/gophercloud/openstack/compute/v2/extensions/servergroups"
-	"github.com/gophercloud/gophercloud/openstack/compute/v2/servers"
+	"github.com/eugenetaranov/gophercloud/openstack/compute/v2/extensions/servergroups"
+	"github.com/eugenetaranov/gophercloud/openstack/compute/v2/servers"
 )
 
 func TestAccComputeV2ServerGroup_basic(t *testing.T) {

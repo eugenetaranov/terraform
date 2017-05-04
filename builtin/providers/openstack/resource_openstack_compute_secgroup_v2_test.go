@@ -7,7 +7,7 @@ import (
 	"github.com/eugenetaranov/terraform/helper/resource"
 	"github.com/eugenetaranov/terraform/terraform"
 
-	"github.com/gophercloud/gophercloud/openstack/compute/v2/extensions/secgroups"
+	"github.com/eugenetaranov/gophercloud/openstack/compute/v2/extensions/secgroups"
 )
 
 func TestAccComputeV2SecGroup_basic(t *testing.T) {

@@ -8,9 +8,9 @@ import (
 	"github.com/eugenetaranov/terraform/helper/resource"
 	"github.com/eugenetaranov/terraform/terraform"
 
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/lbaas_v2/loadbalancers"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/security/groups"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/ports"
+	"github.com/eugenetaranov/gophercloud/openstack/networking/v2/extensions/lbaas_v2/loadbalancers"
+	"github.com/eugenetaranov/gophercloud/openstack/networking/v2/extensions/security/groups"
+	"github.com/eugenetaranov/gophercloud/openstack/networking/v2/ports"
 )
 
 func TestAccLBV2LoadBalancer_basic(t *testing.T) {

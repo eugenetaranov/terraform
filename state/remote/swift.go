@@ -15,10 +15,10 @@ import (
 	"time"
 
 	tf_openstack "github.com/eugenetaranov/terraform/builtin/providers/openstack"
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/openstack"
-	"github.com/gophercloud/gophercloud/openstack/objectstorage/v1/containers"
-	"github.com/gophercloud/gophercloud/openstack/objectstorage/v1/objects"
+	"github.com/eugenetaranov/gophercloud"
+	"github.com/eugenetaranov/gophercloud/openstack"
+	"github.com/eugenetaranov/gophercloud/openstack/objectstorage/v1/containers"
+	"github.com/eugenetaranov/gophercloud/openstack/objectstorage/v1/objects"
 )
 
 const TFSTATE_NAME = "tfstate.tf"

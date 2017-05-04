@@ -8,10 +8,10 @@ import (
 	"github.com/eugenetaranov/terraform/helper/resource"
 	"github.com/eugenetaranov/terraform/helper/schema"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/layer3/floatingips"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/networks"
-	"github.com/gophercloud/gophercloud/pagination"
+	"github.com/eugenetaranov/gophercloud"
+	"github.com/eugenetaranov/gophercloud/openstack/networking/v2/extensions/layer3/floatingips"
+	"github.com/eugenetaranov/gophercloud/openstack/networking/v2/networks"
+	"github.com/eugenetaranov/gophercloud/pagination"
 )
 
 func resourceNetworkingFloatingIPV2() *schema.Resource {

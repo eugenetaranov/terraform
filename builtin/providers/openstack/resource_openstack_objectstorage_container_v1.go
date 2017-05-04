@@ -5,7 +5,7 @@ import (
 	"log"
 
 	"github.com/eugenetaranov/terraform/helper/schema"
-	"github.com/gophercloud/gophercloud/openstack/objectstorage/v1/containers"
+	"github.com/eugenetaranov/gophercloud/openstack/objectstorage/v1/containers"
 )
 
 func resourceObjectStorageContainerV1() *schema.Resource {

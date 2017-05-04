@@ -7,7 +7,7 @@ import (
 
 	"github.com/Unknwon/com"
 	"github.com/eugenetaranov/terraform/helper/schema"
-	"github.com/gophercloud/gophercloud"
+	"github.com/eugenetaranov/gophercloud"
 )
 
 // BuildRequest takes an opts struct and builds a request body for

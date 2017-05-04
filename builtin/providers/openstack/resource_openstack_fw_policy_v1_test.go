@@ -7,8 +7,8 @@ import (
 
 	"github.com/eugenetaranov/terraform/helper/resource"
 	"github.com/eugenetaranov/terraform/terraform"
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/fwaas/policies"
+	"github.com/eugenetaranov/gophercloud"
+	"github.com/eugenetaranov/gophercloud/openstack/networking/v2/extensions/fwaas/policies"
 )
 
 func TestAccFWPolicyV1_basic(t *testing.T) {

@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gophercloud/gophercloud/openstack/blockstorage/extensions/volumeactions"
-	"github.com/gophercloud/gophercloud/openstack/blockstorage/v2/volumes"
+	"github.com/eugenetaranov/gophercloud/openstack/blockstorage/extensions/volumeactions"
+	"github.com/eugenetaranov/gophercloud/openstack/blockstorage/v2/volumes"
 
 	"github.com/eugenetaranov/terraform/helper/resource"
 	"github.com/eugenetaranov/terraform/helper/schema"

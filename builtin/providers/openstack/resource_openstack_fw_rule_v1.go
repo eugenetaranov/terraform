@@ -5,9 +5,9 @@ import (
 	"log"
 
 	"github.com/eugenetaranov/terraform/helper/schema"
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/fwaas/policies"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/fwaas/rules"
+	"github.com/eugenetaranov/gophercloud"
+	"github.com/eugenetaranov/gophercloud/openstack/networking/v2/extensions/fwaas/policies"
+	"github.com/eugenetaranov/gophercloud/openstack/networking/v2/extensions/fwaas/rules"
 )
 
 func resourceFWRuleV1() *schema.Resource {

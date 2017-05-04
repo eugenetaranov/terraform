@@ -5,8 +5,8 @@ import (
 	"log"
 	"sort"
 
-	"github.com/gophercloud/gophercloud/openstack/imageservice/v2/images"
-	"github.com/gophercloud/gophercloud/pagination"
+	"github.com/eugenetaranov/gophercloud/openstack/imageservice/v2/images"
+	"github.com/eugenetaranov/gophercloud/pagination"
 
 	"github.com/eugenetaranov/terraform/helper/schema"
 )

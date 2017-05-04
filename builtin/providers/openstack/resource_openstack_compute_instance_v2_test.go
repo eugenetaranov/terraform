@@ -7,13 +7,13 @@ import (
 	"github.com/eugenetaranov/terraform/helper/resource"
 	"github.com/eugenetaranov/terraform/terraform"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/openstack/blockstorage/v1/volumes"
-	"github.com/gophercloud/gophercloud/openstack/compute/v2/extensions/floatingips"
-	"github.com/gophercloud/gophercloud/openstack/compute/v2/extensions/secgroups"
-	"github.com/gophercloud/gophercloud/openstack/compute/v2/extensions/volumeattach"
-	"github.com/gophercloud/gophercloud/openstack/compute/v2/servers"
-	"github.com/gophercloud/gophercloud/pagination"
+	"github.com/eugenetaranov/gophercloud"
+	"github.com/eugenetaranov/gophercloud/openstack/blockstorage/v1/volumes"
+	"github.com/eugenetaranov/gophercloud/openstack/compute/v2/extensions/floatingips"
+	"github.com/eugenetaranov/gophercloud/openstack/compute/v2/extensions/secgroups"
+	"github.com/eugenetaranov/gophercloud/openstack/compute/v2/extensions/volumeattach"
+	"github.com/eugenetaranov/gophercloud/openstack/compute/v2/servers"
+	"github.com/eugenetaranov/gophercloud/pagination"
 )
 
 func TestAccComputeV2Instance_basic(t *testing.T) {
