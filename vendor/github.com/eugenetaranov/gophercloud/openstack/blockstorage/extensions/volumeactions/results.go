@@ -1,6 +1,6 @@
 package volumeactions
 
-import "github.com/gophercloud/gophercloud"
+import "github.com/eugenetaranov/gophercloud"
 
 // AttachResult contains the response body and error from a Get request.
 type AttachResult struct {

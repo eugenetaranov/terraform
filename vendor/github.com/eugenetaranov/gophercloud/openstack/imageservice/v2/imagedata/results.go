@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/gophercloud/gophercloud"
+	"github.com/eugenetaranov/gophercloud"
 )
 
 // UploadResult is the result of an upload image operation

@@ -1,9 +1,9 @@
 package openstack
 
 import (
-	"github.com/gophercloud/gophercloud"
-	tokens2 "github.com/gophercloud/gophercloud/openstack/identity/v2/tokens"
-	tokens3 "github.com/gophercloud/gophercloud/openstack/identity/v3/tokens"
+	"github.com/eugenetaranov/gophercloud"
+	tokens2 "github.com/eugenetaranov/gophercloud/openstack/identity/v2/tokens"
+	tokens3 "github.com/eugenetaranov/gophercloud/openstack/identity/v3/tokens"
 )
 
 // V2EndpointURL discovers the endpoint URL for a specific service from a ServiceCatalog acquired

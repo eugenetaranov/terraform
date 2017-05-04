@@ -1,6 +1,6 @@
 package swauth
 
-import "github.com/gophercloud/gophercloud"
+import "github.com/eugenetaranov/gophercloud"
 
 // AuthOptsBuilder describes struct types that can be accepted by the Auth call.
 // The AuthOpts struct in this package does.

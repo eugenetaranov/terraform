@@ -4,7 +4,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/gophercloud/gophercloud"
+	"github.com/eugenetaranov/gophercloud"
 )
 
 // Upload uploads image file

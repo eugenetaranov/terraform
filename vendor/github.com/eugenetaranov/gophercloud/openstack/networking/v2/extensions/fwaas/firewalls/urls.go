@@ -1,6 +1,6 @@
 package firewalls
 
-import "github.com/gophercloud/gophercloud"
+import "github.com/eugenetaranov/gophercloud"
 
 const (
 	rootPath     = "fw"

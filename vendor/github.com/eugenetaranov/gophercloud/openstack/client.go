@@ -5,10 +5,10 @@ import (
 	"net/url"
 	"reflect"
 
-	"github.com/gophercloud/gophercloud"
-	tokens2 "github.com/gophercloud/gophercloud/openstack/identity/v2/tokens"
-	tokens3 "github.com/gophercloud/gophercloud/openstack/identity/v3/tokens"
-	"github.com/gophercloud/gophercloud/openstack/utils"
+	"github.com/eugenetaranov/gophercloud"
+	tokens2 "github.com/eugenetaranov/gophercloud/openstack/identity/v2/tokens"
+	tokens3 "github.com/eugenetaranov/gophercloud/openstack/identity/v3/tokens"
+	"github.com/eugenetaranov/gophercloud/openstack/utils"
 )
 
 const (

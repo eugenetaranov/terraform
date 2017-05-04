@@ -1,6 +1,6 @@
 package tokens
 
-import "github.com/gophercloud/gophercloud"
+import "github.com/eugenetaranov/gophercloud"
 
 type PasswordCredentialsV2 struct {
 	Username string `json:"username" required:"true"`

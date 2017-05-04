@@ -1,7 +1,7 @@
 package swauth
 
 import (
-	"github.com/gophercloud/gophercloud"
+	"github.com/eugenetaranov/gophercloud"
 )
 
 // GetAuthResult temporarily contains the response from a Swauth

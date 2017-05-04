@@ -3,7 +3,7 @@ package images
 import (
 	"strings"
 
-	"github.com/gophercloud/gophercloud"
+	"github.com/eugenetaranov/gophercloud"
 )
 
 // `listURL` is a pure function. `listURL(c)` is a URL for which a GET
