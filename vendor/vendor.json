@@ -1463,10 +1463,10 @@
 			"versionExact": "1.0.0"
 		},
 		{
-			"checksumSHA1": "BkKoEdzTQcgDS0wexsgntarsD3Y=",
+			"checksumSHA1": "mYgiWZ8ihcvemuEj+pIBVzHsB30=",
 			"path": "github.com/eugenetaranov/gophercloud",
-			"revision": "ea46dd9fef8330ee511960bb9650fc73bbcd5a24",
-			"revisionTime": "2017-05-04T00:09:25Z"
+			"revision": "f50b2082b3b4d08d2cc36bca365b2cf360549f23",
+			"revisionTime": "2017-05-11T22:30:56Z"
 		},
 		{
 			"checksumSHA1": "rWEFVLYwdp4+Zae4DPxSKEV0bg8=",
@@ -1583,10 +1583,10 @@
 			"revisionTime": "2017-05-03T23:08:02Z"
 		},
 		{
-			"checksumSHA1": "0qTVWwVTalUtFQ1MfjYoVxY0l6E=",
+			"checksumSHA1": "kze2We7Co5jtJ2uH3jgklYyLOP4=",
 			"path": "github.com/eugenetaranov/gophercloud/openstack/db/v1/instances",
-			"revision": "ea46dd9fef8330ee511960bb9650fc73bbcd5a24",
-			"revisionTime": "2017-05-04T00:09:25Z"
+			"revision": "f50b2082b3b4d08d2cc36bca365b2cf360549f23",
+			"revisionTime": "2017-05-11T22:30:56Z"
 		},
 		{
 			"checksumSHA1": "Ehkha+rxzIiUcZYgY1TcA99J5Uc=",

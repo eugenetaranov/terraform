@@ -72,8 +72,8 @@ func (r *Instance) UnmarshalJSON(b []byte) error {
 	type tmp Instance
 	var s struct {
 		tmp
-		Created gophercloud.JSONRFC3339NoZ `json:"created"`
-		Updated gophercloud.JSONRFC3339NoZ `json:"updated"`
+		Created gophercloud.JSONRFC3339 `json:"created"`
+		Updated gophercloud.JSONRFC3339 `json:"updated"`
 	}
 	err := json.Unmarshal(b, &s)
 	if err != nil {
