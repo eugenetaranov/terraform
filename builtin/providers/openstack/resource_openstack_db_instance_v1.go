@@ -142,7 +142,7 @@ func resourceDatabaseInstanceV1Delete(d *schema.ResourceData, meta interface{}) 
 
 	stateConf := &resource.StateChangeConf{
 		Pending:    []string{"ACTIVE", "SHUTOFF"},
-		Target:     []string{"DELETED", "SOFT_DELETED"},
+		Target:     []string{"deleted"},
 		Refresh:    InstanceV1StateRefreshFunc(databaseInstanceClient, d.Id()),
 		Timeout:    d.Timeout(schema.TimeoutDelete),
 		Delay:      10 * time.Second,
